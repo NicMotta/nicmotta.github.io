@@ -1,0 +1,31 @@
+---
+layout: post
+date: 2020-05-01 13:32:20 # solo cambiar mes y dia
+
+title: data_mesh # titulo de la obra
+year: [2019]
+
+
+img: data_mesh/data_mesh.jpg
+img_2: data_mesh/data_mesh_2.jpg
+img_3:
+img_4:
+img_5:
+video_1: https://www.youtube.com/embed/SGEKbeeebto
+video_2: https://www.youtube.com/embed/qleoKkCC28s
+sonido_1:
+---
+
+## Abstract
+
+Se trata de una instalación estructural fija de caños de pvc y tensores que ocupa dos pisos llevada a cabo en una galería con tres de sus cuatro paredes vidriadas y ubicada en un centro comercial.
+
+Si bien existe un exhaustivo estudio de diferentes tipos de sistemas naturales y formas orgánicas de distintos insectos y larvas, las cuales son llevadas a su forma más abstracta, existe una geometrización de la naturaleza del hombre, en un principio desde lo visual y la morfología pero luego avancé hacia una reducción de su forma a partir del dato y la programación.
+El diseño de la estructura está basada principalmente en pentágonos, fue generada por un algoritmo que unió los vértices en el menor número posibles de aristas o tensores.
+Si bien dicha estructura no posee movimiento, es simulado por medio de luces programadas que responden al comportamiento de las geometrías analizada del exterior de la galería.
+
+El funcionamiento de la obra sucede por medio de una cámara de vigilancia que detecta las formas humanas y los diferentes movimientos que suceden en exterior del espacio expositivo, estas formas y movimientos son ingresados en un software donde se analizan y detecta puntos en la imagen, dibujando geometrías. Los puntos detectados son tomados como dato de ingreso del exterior cuya información numérica de posición se comunica con las luces que reaccionan / ejecutan un comportamiento digitalizado.
+
+En la parte inferior de la sala, se proyectaba lo que sucedía en la cámara y las geometrías analizadas.
+
+La obra data_mesh puede entenderse como un sistema, no natural pero si basado en ello. En donde en tiempo real toma información del exterior, es analizado en la parte inferior y ejecutado en comportamiento de luces en la parte superior.

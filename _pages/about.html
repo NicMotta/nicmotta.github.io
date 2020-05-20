@@ -1,0 +1,28 @@
+---
+layout: home-page
+title: Acerca de nosotros
+permalink: /about/
+---
+<div class="small-wrapper">
+  <div class="about-container">
+    <section class="about-header">
+      <img src="{{site.baseurl}}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" width="15%" alt="">
+
+      <p class="subtitle">{{site.about-author}}</p>
+      <hr>
+      <p class="subtitle"><b>Creador: </b>{{site.creador}}</p>
+      <p class="subtitle"><b>Staff: </b>{{site.colaboradores}}</p>
+    </section>
+    <section class="about-body">
+      <ul class="contact-list">
+
+      {% if site.instagram %}
+        <li class="instagram"><a href="https://instagram.com/{{site.instagram}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+      {% else %}
+        <li class="instagram"><a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      {% endif %}
+
+      </ul>
+    </section> <!-- End About Body-->
+  </div> <!-- End About Container -->
+</div> <!-- End Small Wrapper -->
