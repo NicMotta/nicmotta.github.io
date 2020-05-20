@@ -1,0 +1,25 @@
+---
+layout: home-page
+---
+
+<ol class="post-card-box clearfix">
+  <section class="about-header">
+    <h1>[Works]</h1>
+    </section>
+    
+  {% for post in paginator.posts %}
+  <li>
+    <div class="post-card">
+      <a href="{{post.url | prepend: site.baseurl}}" class="post-card-image" style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : post.img}} )">
+      </a>
+
+      <div class="post-card-body">
+        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"><h3 class="post-card-title">{{post.title}}</h3></a>
+        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"><h3 class="post-card-artista">[{{post.year}}]</h3></a>
+
+      </div>
+
+    </div>
+  </li>
+  {% endfor %}
+</ol>

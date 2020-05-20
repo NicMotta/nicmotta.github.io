@@ -1,0 +1,39 @@
+title: Nic Motta
+email: nicmottas@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: Nic Motta # add your name
+about-author:
+creador: Nic Motta
+
+# Contact links
+email: # Add your Email address
+website: # Add your website, do not add http://
+github: https://github.com/NicMotta
+instagram: https://www.instagram.com/nicmotta_/
+facebook: https://www.facebook.com/NicMottaSalguero
+youtube: https://www.youtube.com/channel/UCzcHwERGhtBfxYfLtzDT0nA/videos?view_as=subscriber
+soundcloud: https://soundcloud.com/nic-motta-salguero/tracks
+
+
+# Tracker
+analytics: UA-165333783-1 # Google Analytics
+
+# Paginate
+paginate: 1000
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
