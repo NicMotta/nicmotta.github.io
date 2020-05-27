@@ -17,11 +17,15 @@ sonido_1:
 
 ### Idea y coordinación: Claudia Valente
 ### Libros de artista
+
 Pablo Cosentino, José María D’Angelo, Guadalupe Chávez Pardo, Julio Flores, Claudia Valente, Mariela Yeregui
 Diseño editorial: Pablo Cosentino
+
 ## Instalación Mecatrónica
 Diseño y construcción: Claudia Valente
+
 Diseño 3D, inteligencia artificial, mapping y sonido: Nic Motta
+
 Desarrollo electrónico: Leandro Barbeito
 
 ## Abstract
