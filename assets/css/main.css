@@ -1238,7 +1238,7 @@ pre code {
   margin-bottom: 30px;
 }
 
-.header-page h1, h3 {
+.header-page h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 36px;
@@ -1246,9 +1246,17 @@ pre code {
   color: #311e3e;
 }
 
+.header-page h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  color: #311e3e;
+}
+
 .header-page .page-date {
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
   text-transform: uppercase;
   font-weight: 300;
 }
