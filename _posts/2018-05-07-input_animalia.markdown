@@ -3,6 +3,7 @@ layout: post
 
 
 title: input_animalia # titulo de la obra
+subtitle: Sistemas en expansión
 year: [2019]
 
 
