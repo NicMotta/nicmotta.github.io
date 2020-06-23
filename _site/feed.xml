@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-23T12:32:08-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nic Motta</title><subtitle></subtitle><author><name>Nic Motta</name></author><entry><title type="html">Herbario de flores silvestres de América del Sur en tiempos de neoliberalismo</title><link href="http://localhost:4000/herbario_america_latina/" rel="alternate" type="text/html" title="Herbario de flores silvestres de América del Sur en tiempos de neoliberalismo" /><published>2020-05-01T10:32:20-03:00</published><updated>2020-05-01T10:32:20-03:00</updated><id>http://localhost:4000/herbario_america_latina</id><content type="html" xml:base="http://localhost:4000/herbario_america_latina/">&lt;h3 id=&quot;idea-y-coordinación-claudia-valente&quot;&gt;Idea y coordinación: Claudia Valente&lt;/h3&gt;
+&lt;h3 id=&quot;libros-de-artista&quot;&gt;Libros de artista&lt;/h3&gt;
+
+&lt;p&gt;Pablo Cosentino, José María D’Angelo, Guadalupe Chávez Pardo, Julio Flores, Claudia Valente, Mariela Yeregui
+Diseño editorial: Pablo Cosentino&lt;/p&gt;
+
+&lt;h2 id=&quot;instalación-mecatrónica&quot;&gt;Instalación Mecatrónica&lt;/h2&gt;
+&lt;p&gt;Diseño y construcción: Claudia Valente&lt;/p&gt;
+
+&lt;p&gt;Diseño 3D, inteligencia artificial, mapping y sonido: Nic Motta&lt;/p&gt;
+
+&lt;p&gt;Desarrollo electrónico: Leandro Barbeito&lt;/p&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Herbario de flores silvestres de América del Sur en tiempos de neoliberalismo es una plataforma de pensamiento y creación sobre la relación entre los sistemas naturales y políticos materializada en instalaciones que incluyen libros multimediales/ interactivos y estructuras mecatrónicas.&lt;/p&gt;
+
+&lt;p&gt;El proyecto nace de la nuestra empatía con las flores silvestres no “domesticables”, cuyos patrones de conducta de resistencia son extrapolables a las conductas de los individuos en los contextos de políticas neo-liberales.&lt;/p&gt;
+
+&lt;p&gt;La conducta de las flores se materializa en una serie de libros multimediales sincréticos en cuanto a sus lenguajes, dinámicas y miradas que conforman una suerte de enciclopedia multiforme.&lt;/p&gt;
+
+&lt;p&gt;En paralelo, una flor mecatrónica (con tecnologías mecánicas y programación digital) despliega geometrías que revelan su inteligencia, tanto en el diseño físico como en las visuales proyectadas resultantes del análisis por inteligencia artificial.&lt;/p&gt;
+
+&lt;p&gt;Buscamos producir matrices para la lectura divergente y descentrada de los sistemas vitales y políticos.&lt;/p&gt;</content><author><name>Nic Motta</name></author><summary type="html">Idea y coordinación: Claudia Valente Libros de artista</summary></entry><entry><title type="html">test_06</title><link href="http://localhost:4000/test_06/" rel="alternate" type="text/html" title="test_06" /><published>2020-05-01T10:32:20-03:00</published><updated>2020-05-01T10:32:20-03:00</updated><id>http://localhost:4000/test_06</id><content type="html" xml:base="http://localhost:4000/test_06/">&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Abordé como idea principal de los [joiners] la representación de un espacio en distintos tiempos.
+El trabajo “test_06” trata de una prueba donde mediante una aplicación, la cual funciona ubicando puntos en el espacio a partir de fotos, representa un espacio determinado y lo convierte en un archivo tridimensional editable.
+Me llamó la atención la manera en la cual trabaja la aplicación, se asemeja al procedimiento realizado por David Hockney en sus [joiners]. Para poder representar en tres dimensiones un espacio a partir de imágenes es imprescindible captar la mayor cantidad de tomas y ángulos posibles, que luego en base a los puntos ubicados, crea y compila en un modelo 3D.&lt;/p&gt;
+
+&lt;p&gt;El espacio retratado en test_06 es una pequeña porción de mi patio, hice varios [escaneos] y modelos del mismo de diferentes maneras y en diferentes días. Luego todos esos modelos .obj los edite en un software de diseño 3D donde los uní para crear una composición.
+La intención de hacerlo interactivo y sobre todo online, viene de la mano de que cada persona puede explorar este espacio representado de diferentes maneras, ángulos y encontrar detalles que se repiten o errores de la malla.&lt;/p&gt;
+
+&lt;h2 id=&quot;proceso&quot;&gt;Proceso&lt;/h2&gt;</content><author><name>Nic Motta</name></author><summary type="html">Abstract</summary></entry><entry><title type="html">Pentagramas de clase en arte electrónico. 1º versión</title><link href="http://localhost:4000/pentagramas_investigacion/" rel="alternate" type="text/html" title="Pentagramas de clase en arte electrónico. 1º versión" /><published>2020-05-01T10:32:20-03:00</published><updated>2020-05-01T10:32:20-03:00</updated><id>http://localhost:4000/pentagramas_investigacion</id><content type="html" xml:base="http://localhost:4000/pentagramas_investigacion/">&lt;h3 id=&quot;diseño-de-herramienta-claudia-valente&quot;&gt;Diseño de herramienta: Claudia Valente&lt;/h3&gt;
+
+&lt;h3 id=&quot;programación-nic-motta&quot;&gt;Programación: Nic Motta&lt;/h3&gt;
+
+&lt;h3 id=&quot;registro-audiovisual-mariana-lombard&quot;&gt;Registro audiovisual: Mariana Lombard&lt;/h3&gt;
+
+&lt;h3 id=&quot;diseño-sonoro-darío-sacco-josé-maría-dangelo-próxima-incorporación&quot;&gt;Diseño sonoro: Darío Sacco, José María D’Angelo (Próxima incorporación)&lt;/h3&gt;
+
+&lt;h2 id=&quot;preguntas-iniciales&quot;&gt;Preguntas iniciales&lt;/h2&gt;
+
+&lt;p&gt;Nos preguntamos cómo investigar la didáctica de las artes electrónicas en nivel posgrado, cómo registrar las estrategias de enseñanza en espacios en los que tanto los conocimientos como las personas provocan cruces transdisciplinares, y, cómo este universo actúa en el devenir procesual de los modos de producción artística.&lt;/p&gt;
+
+&lt;p&gt;La investigación “Enseñanza y Praxis transdisciplinares en las artes electrónicas” Registro y estudio de prácticas educativas en carrera de grado, posgrado y extensión universitaria en UNTREF , ya en desarrollo, se enmarca en la Universidad Nacional de Tres de Febrero. La herramienta que presentamos aquí corresponde a la Maestría en tecnologías y estéticas de las artes electrónicas de la UNTREF, esto hace que las observaciones de campo resignifiquen la relación de los hallazgos con el contexto territorial.&lt;/p&gt;
+
+&lt;h2 id=&quot;origen-del-pentagrama-de-clase&quot;&gt;Origen del pentagrama de clase&lt;/h2&gt;
+
+&lt;p&gt;El primer paso fue hacer registros audiovisuales de las clases para después transcribirlas en una primera plantilla/ borrador. Después de varios ensayos surgió visualmente la idea de una herramienta temporalizada y sonora.&lt;/p&gt;
+
+&lt;h3 id=&quot;pentagrama-de-clase-1º-versión&quot;&gt;Pentagrama de clase, 1º versión&lt;/h3&gt;
+
+&lt;p&gt;A partir esta idea inicial, diseñamos una herramienta para registrar las experiencias educativas a la que llamamos pentagrama de clase con la que registraríamos cada momento de la clase con su duración, conocimientos transdisciplinares y metodologías. En una primera instancia se identifican los elementos de la clase y se realiza el 1* nivel de transcripción.&lt;/p&gt;
+
+&lt;p&gt;La primera transcripción se abstrae en una segunda en la que se genera una plantilla con códigos diseñados desde un enfoque transdisciplinar y procesual. Se identifican: momentos de la clase ( inicio, información, percepción, construcción de conocimiento, experimentación y evaluación) , los campos de conocimiento ( lenguajes artísticos, ciencias, tecnología, otros), las dinámicas humanas, las metodologías ( disciplinares, transdisciplinares, procesuales) y diseño espacial.&lt;/p&gt;
+
+&lt;h3 id=&quot;2º-nivel-de-transcripción--codificación-de-la-1-clase-del-dc-la-padula-en-el-seminario-arte-y-ciencia&quot;&gt;2º nivel de transcripción / codificación de la 1* Clase del Dc. La Padula en el seminario “Arte y ciencia”&lt;/h3&gt;
+
+&lt;p&gt;La segunda transcripción es codificada y procesada en una tercera por una programación (creada especialmente para nuestra investigación) . La programación interpreta la codificación y la ramifica en diferentes filtros correspondientes a cada momento y cada elemento analizado, a partir de allí, envía los datos a un software de sonido. A cada elemento le corresponde un sintetizador u efecto digital diseñado para el proyecto por lo que obtiene una identidad propia. Todas las clases analizadas transitan por la misma programación e instrumentos digitales. De algún modo, el pentagrama analizado es el actuador sobre una configuración de sonidos pre hecha. El resultado es una documentación sonora de los procesos educativos territorializados.&lt;/p&gt;
+
+&lt;h3 id=&quot;3º-nivel-de-transcripción--sonorización-de-la-1-clase-del-dc-la-padula-en-el-seminario-arte-y-ciencia&quot;&gt;3º nivel de transcripción / sonorización de la 1* Clase del Dc. La Padula en el seminario “Arte y ciencia”&lt;/h3&gt;
+
+&lt;p&gt;En principio, la traducción al lenguaje sonoro revela otro sentido del flujo de pensamientos en diálogo entre docentes y estudiantes y permite reconocer ritmos, intensidades, movimientos, fugas, etc. Los aspectos particulares del aparato epistemológico teórico /práctico de nuestro campo de estudio cobran una dimensión temporalizada y expresiva .&lt;/p&gt;
+
+&lt;p&gt;La herramienta está diseñada por Claudia Valente y programada por Nicolás Motta a partir de los registros audiovisuales realizados por Mariana Lombard. Fue probada al traducir varias clases de la MAE y revelar aspectos diversos de los procesos didácticos.&lt;/p&gt;
+
+&lt;p&gt;Actualmente, frente a estas revelaciones y para poder entender en profundidad las posibilidades de esta herramienta y expandirlas, invitamos a dos artistas sonoros que dentro del mismo grupo de investigación estás observando otros niveles de estudio: José M. D’Angelo y Darío Sacco&lt;/p&gt;</content><author><name>Nic Motta</name></author><summary type="html">Diseño de herramienta: Claudia Valente</summary></entry><entry><title type="html">data_mesh</title><link href="http://localhost:4000/data_mesh/" rel="alternate" type="text/html" title="data_mesh" /><published>2020-05-01T10:32:20-03:00</published><updated>2020-05-01T10:32:20-03:00</updated><id>http://localhost:4000/data_mesh</id><content type="html" xml:base="http://localhost:4000/data_mesh/">&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Se trata de una instalación estructural fija de caños de pvc y tensores que ocupa dos pisos llevada a cabo en una galería con tres de sus cuatro paredes vidriadas y ubicada en un centro comercial.&lt;/p&gt;
+
+&lt;p&gt;Si bien existe un exhaustivo estudio de diferentes tipos de sistemas naturales y formas orgánicas de distintos insectos y larvas, las cuales son llevadas a su forma más abstracta, existe una geometrización de la naturaleza del hombre, en un principio desde lo visual y la morfología pero luego avancé hacia una reducción de su forma a partir del dato y la programación.
+El diseño de la estructura está basada principalmente en pentágonos, fue generada por un algoritmo que unió los vértices en el menor número posibles de aristas o tensores.
+Si bien dicha estructura no posee movimiento, es simulado por medio de luces programadas que responden al comportamiento de las geometrías analizada del exterior de la galería.&lt;/p&gt;
+
+&lt;p&gt;El funcionamiento de la obra sucede por medio de una cámara de vigilancia que detecta las formas humanas y los diferentes movimientos que suceden en exterior del espacio expositivo, estas formas y movimientos son ingresados en un software donde se analizan y detecta puntos en la imagen, dibujando geometrías. Los puntos detectados son tomados como dato de ingreso del exterior cuya información numérica de posición se comunica con las luces que reaccionan / ejecutan un comportamiento digitalizado.&lt;/p&gt;
+
+&lt;p&gt;En la parte inferior de la sala, se proyectaba lo que sucedía en la cámara y las geometrías analizadas.&lt;/p&gt;
+
+&lt;p&gt;La obra data_mesh puede entenderse como un sistema, no natural pero si basado en ello. En donde en tiempo real toma información del exterior, es analizado en la parte inferior y ejecutado en comportamiento de luces en la parte superior.&lt;/p&gt;</content><author><name>Nic Motta</name></author><summary type="html">Abstract</summary></entry><entry><title type="html">data_point</title><link href="http://localhost:4000/data_point/" rel="alternate" type="text/html" title="data_point" /><published>2020-05-01T10:32:20-03:00</published><updated>2020-05-01T10:32:20-03:00</updated><id>http://localhost:4000/data_point</id><content type="html" xml:base="http://localhost:4000/data_point/">&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;El proyecto data_point nace a partir de la investigación del comportamiento de diferentes sistemas naturales y el análisis de imagen traducidos a geometrías y valores numéricos, la alimentación o input de dicho sistema sucede a través del sensado del espacio en sala, en este traspaso de información hay una búsqueda de patrones y acciones a tomar por parte de la obra, determinadas por el entorno que la rodea.
+“La computación automatizada realiza un doble movimiento: por un lado, procede a una forma de abstracción esencial de ciertas zonas de la realidad y, por el otro, instaura una distancia, “triturando” los códigos binarios durante la realización de una tarea o frente a toda producción de resultados, a diferencia de la mecánica, que no opera jamás en diferido, sino en la mera expectativa de la transferencia de energía.” (Sadin, 2018,p.42).
+La obra visualiza la manipulación de datos en tiempo real, puede pensarse como una estructura o sistema total que funciona tanto de análisis como de pantalla para la visualización de pensamientos y acciones de hombre para entender la naturaleza desde la numeralización.
+“Nuestro presente atribuye a algunas líneas de código no solo el poder de interpretar de manera ampliamente informada una infinidad de situaciones y de emprender acciones, sino que ahora también aspira a dotar a las máquinas de modos de aprehensión que buscan hacerles superar el marco de la mera “cuantificación binaria” para desplegar “perceptos” cada vez más complejos.” (Sadin, 2018,p.120).&lt;/p&gt;
+
+&lt;p&gt;A partir de acá me pregunto:&lt;/p&gt;
+
+&lt;p&gt;¿Existe un trazado del espacio a partir de datos que surgen en relación al sensado de la materia, estructura y el individuo que se encuentra adelante?&lt;/p&gt;
+
+&lt;p&gt;¿Existe una nueva idea de dibujo a partir del dato numérico, una nueva representación del espacio?&lt;/p&gt;
+
+&lt;p&gt;¿Dejan de ser indispensable la fuente óptica/visual de información para dejar paso a las fuentes numéricas y de datos con el fin de lograr la representación espacial?&lt;/p&gt;
+
+&lt;p&gt;Pensar el espacio como un mar de datos numéricos, donde cada porción de información recolectada es reorganizada en un volumen digital, me lleva a pensar que hay nuevas maneras de entender nuestro hábitat basado en inputs que no obedecen a nuestros sentidos primarios o que están más allá de nuestra propia percepción del espacio.
+Estos valores se modifican en tiempo real aceleradamente, por lo tanto no podrían ser representados con técnicas artísticas tradicionales, como el dibujo o la imagen temporalizada, es indispensable utilizar un medio que permita visualizar estos cambios constantes y acceder a manipularlos.&lt;/p&gt;
+
+&lt;p&gt;Entonces puedo tomar al punto en dibujo puesto en diálogo con un número, proveniente de la información de entrada. Ambos representan el menor módulo posible y constructor de las técnicas.&lt;/p&gt;
+
+&lt;p&gt;Tanto el punto como el dato numérico son la mínima expresión necesaria para que la obra exista. Si en un papel hay un punto, podemos tomarlo como un dibujo, si está en blanco no. Lo mismo sucede con el número, si existe el número, existe la representación digital.
+A partir de ahí tanto el punto como el número al multiplicarse construyen tramas y redes.&lt;/p&gt;
+
+&lt;h2 id=&quot;descripción-breve-del-proyecto&quot;&gt;Descripción breve del proyecto&lt;/h2&gt;
+
+&lt;p&gt;El proyecto data_point es una instalación interactiva conformada por una estructura geométrica de elásticos y un dispositivo cuya función es sensar continuamente el espacio y los espectadores. Esa información recolectada modifica la estructura por medio de tensores movidos a traves motor y a su vez la información ingresa como coordenadas en un software donde genera en tiempo real una malla digital, la cual es mostrada en sala y en una pagina de internet.&lt;/p&gt;</content><author><name>Nic Motta</name></author><summary type="html">Abstract El proyecto data_point nace a partir de la investigación del comportamiento de diferentes sistemas naturales y el análisis de imagen traducidos a geometrías y valores numéricos, la alimentación o input de dicho sistema sucede a través del sensado del espacio en sala, en este traspaso de información hay una búsqueda de patrones y acciones a tomar por parte de la obra, determinadas por el entorno que la rodea. “La computación automatizada realiza un doble movimiento: por un lado, procede a una forma de abstracción esencial de ciertas zonas de la realidad y, por el otro, instaura una distancia, “triturando” los códigos binarios durante la realización de una tarea o frente a toda producción de resultados, a diferencia de la mecánica, que no opera jamás en diferido, sino en la mera expectativa de la transferencia de energía.” (Sadin, 2018,p.42). La obra visualiza la manipulación de datos en tiempo real, puede pensarse como una estructura o sistema total que funciona tanto de análisis como de pantalla para la visualización de pensamientos y acciones de hombre para entender la naturaleza desde la numeralización. “Nuestro presente atribuye a algunas líneas de código no solo el poder de interpretar de manera ampliamente informada una infinidad de situaciones y de emprender acciones, sino que ahora también aspira a dotar a las máquinas de modos de aprehensión que buscan hacerles superar el marco de la mera “cuantificación binaria” para desplegar “perceptos” cada vez más complejos.” (Sadin, 2018,p.120).</summary></entry><entry><title type="html">Invadir / Resistir</title><link href="http://localhost:4000/invadir_resistir/" rel="alternate" type="text/html" title="Invadir / Resistir" /><published>2020-05-01T10:32:20-03:00</published><updated>2020-05-01T10:32:20-03:00</updated><id>http://localhost:4000/invadir_resistir</id><content type="html" xml:base="http://localhost:4000/invadir_resistir/">&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;h3 id=&quot;curaduría&quot;&gt;Curaduría:&lt;/h3&gt;
+&lt;p&gt;Mariela Yeregui y Susan Campos Fonseca&lt;/p&gt;
+
+&lt;p&gt;Dos grupos de artistas / investigadores se unen para interrogar los comportamientos de las especies naturales en su fluctuación entre el gesto desestabilizante y perturbador de la invasión, por un lado, y la resistencia ante el avance de la acción indiscriminada del ser humano, por otro. Ambas manifestaciones son la cara de una misma moneda: para poder resistir, a veces, es necesario invadir.&lt;/p&gt;
+
+&lt;p&gt;El mundo natural resulta así un espacio que motiva a la reflexión sobre los comportamientos humanos, al poner en juego tecnologías biomiméticas, robóticas y algorítmicas enmarcadas en una Enciclopedia que decoloniza el propio sentido de la mirada enciclopédica. Entre las plagas pergeñadas a partir de los desechos, lo natural despliega resistencias poéticamente poderosas.&lt;/p&gt;</content><author><name>Nic Motta</name></author><summary type="html">Abstract</summary></entry><entry><title type="html">Proyecto Rio</title><link href="http://localhost:4000/proyecto_rio/" rel="alternate" type="text/html" title="Proyecto Rio" /><published>2019-05-03T00:00:00-03:00</published><updated>2019-05-03T00:00:00-03:00</updated><id>http://localhost:4000/proyecto_rio</id><content type="html" xml:base="http://localhost:4000/proyecto_rio/">&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;La idea está basada en la recolección de imágenes de Google con la palabra “rio”. Con este banco de imágenes se crea una programación en lenguaje Python, el cual toma todo el banco de datos, los compara y promedia, teniendo como resultado un único color que corresponde a todas las imágenes. La programación es dinámica, es decir, que se puede seguir agregando imágenes al banco para ampliar los datos y de este modo tener un color mas preciso. A mayor cantidad de imágenes, mayor grado de exactitud.&lt;/p&gt;
+
+&lt;p&gt;Con esta idea, busco poder explicar en un único color el concepto “rio” que puede encontrarse en una busqueda de internet.&lt;/p&gt;
+
+&lt;h2 id=&quot;color-generado&quot;&gt;Color generado&lt;/h2&gt;
+
+&lt;h3 id=&quot;código-hexadecimal&quot;&gt;Código hexadecimal&lt;/h3&gt;
+&lt;p&gt;#505926&lt;/p&gt;
+
+&lt;h3 id=&quot;valores-en-cmyk&quot;&gt;Valores en CMYK&lt;/h3&gt;
+
+&lt;p&gt;C = 76% / M = 58% / Y = 100% / K = 23%&lt;/p&gt;
+
+&lt;h3 id=&quot;valores-en-rgb&quot;&gt;Valores en RGB&lt;/h3&gt;
+&lt;p&gt;R = 80 / G = 89 / B = 38&lt;/p&gt;</content><author><name>Nic Motta</name></author><summary type="html">Abstract</summary></entry><entry><title type="html">input_animalia</title><link href="http://localhost:4000/input_animalia/" rel="alternate" type="text/html" title="input_animalia" /><published>2018-05-07T00:00:00-03:00</published><updated>2018-05-07T00:00:00-03:00</updated><id>http://localhost:4000/input_animalia</id><content type="html" xml:base="http://localhost:4000/input_animalia/">&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;A la idea de expansión y funcionamiento de la hormiga argentina la encuentro muy cercana al comportamiento de los humanos en acumular territorio y recursos naturales. Es así que empiezo a buscar similitudes entre el sistema de expansión de las hormigas, y el de los humanos. Busco poner en diálogo dos conceptos, por un lado la naturaleza de las hormigas de acumlar alimento y procrear instintivamente y ampliar su supercolonia. Y por otro, el accionar de las grandes colonias humanas que buscan expandirse sin tomar en cuenta el daño que le hacen a las demás “colonias humanas” que no se encuentran dentro de su territorio.&lt;/p&gt;
+
+&lt;p&gt;A partir de ahí, desde entonces, empecé a trabajar la idea de generar muchos mecanismos que estén conectados continuamente a través del sonido, o una señal ultrasónica. Generando una interacción entre ellos. De ahora en adelante, cada mecanismo lo llamaremos módulo. Un módulo es la representación conceptual de una colonia de hormigas argentinas, pero al mismo tiempo también de un territorio en específico. Los dispositivos mecatrónicos son acompañados por un mapping interactivo.&lt;/p&gt;
+
+&lt;p&gt;El funcionamiento de la proyección en el cual los módulos se encienden, una animación en tiempo real ilumina el módulo por completo con un pentágono blanco, despegando de la pared y denotando su giro. Cada vez que un módulo enciende e inicie su ciclo está acompañado por un pentágono que se irán uniendo con líneas, similar a líneas magnéticas, creando así una gran red de nodos unidos (sistema Top-down) y funcionando al mismo tiempo, esta unión de nodos hace referencia a la expansión de las colonias, tanto de hormigas como humanas, y la creación de una supercolonia.&lt;/p&gt;
+
+&lt;h2 id=&quot;dispositivo&quot;&gt;Dispositivo&lt;/h2&gt;
+
+&lt;p&gt;Instalación de estructura mecatrónica con engranajes, mapping en tiempo real. Análisis de geometria.&lt;/p&gt;</content><author><name>Nic Motta</name></author><summary type="html">Abstract</summary></entry><entry><title type="html">Intuiciones numéricas II</title><link href="http://localhost:4000/intuiciones_numericas/" rel="alternate" type="text/html" title="Intuiciones numéricas II" /><published>2018-05-06T00:00:00-03:00</published><updated>2018-05-06T00:00:00-03:00</updated><id>http://localhost:4000/intuiciones_numericas</id><content type="html" xml:base="http://localhost:4000/intuiciones_numericas/">&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Intuiciones numéricas pone en diálogo el universo físico de la materia con el numérico de la programación. Cuerpos piramidales agitados por las aguas son traducidos a diseños geométricos que en forma lumínica se proyectan para producir una danza entre el número y la materia. En simultáneo, un dispositivo aéreo sensa movimiento en coordenadas espaciales y con estos datos genera visualidades y sonidos en fuga perpetua.&lt;/p&gt;
+
+&lt;p&gt;Patrones de conducta, diagramas relacionales, dinámicas recurrentes suceden tanto en las visuales programadas como en los eventos fenomenológicos. La generatividad entrelaza ambos universos&lt;/p&gt;
+
+&lt;h2 id=&quot;equipo&quot;&gt;Equipo&lt;/h2&gt;
+&lt;p&gt;Claudia Valente: Construcción conceptual.&lt;/p&gt;
+
+&lt;p&gt;Leandro Barbeito: Desarrollo electrónico.&lt;/p&gt;
+
+&lt;p&gt;Nic Motta: Diseño numérico y sonido.&lt;/p&gt;
+
+&lt;h2 id=&quot;dispositivo&quot;&gt;Dispositivo&lt;/h2&gt;
+
+&lt;p&gt;Instalación, impresión 3D, dispositivos electro/digitales, agua, vidrio, luz UV, programación visual, sonido.&lt;/p&gt;</content><author><name>Nic Motta</name></author><summary type="html">Abstract</summary></entry><entry><title type="html">Geometrías en danza y colisión</title><link href="http://localhost:4000/geometrias_en_danza_y_colision/" rel="alternate" type="text/html" title="Geometrías en danza y colisión" /><published>2018-05-05T00:00:00-03:00</published><updated>2018-05-05T00:00:00-03:00</updated><id>http://localhost:4000/geometrias_en_danza_y_colision</id><content type="html" xml:base="http://localhost:4000/geometrias_en_danza_y_colision/">&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Los modos de organización de las distintas comunidades vivientes presentan patrones funcionales que parecieran surgir de un cerebro colectivo. Tierra, humanos, animales y vegetación nos encontramos enlazados en un sistema único.&lt;/p&gt;
+
+&lt;p&gt;El video GEOMETRÍAS EN DANZA Y COLISIÓN revela, mediante el trackeado de imagen, las geometrías y sonidos que subyacen a los comportamientos tanto de un grupo de medusas como de las fuerzas antidisturbios sobre las multitudes.&lt;/p&gt;
+
+&lt;p&gt;Producir un concierto dinámico del sistema vivo, quizás habilite pensarnos como parte de la naturaleza.&lt;/p&gt;
+
+&lt;h2 id=&quot;equipo&quot;&gt;Equipo&lt;/h2&gt;
+&lt;p&gt;Claudia Valente: Concepto y edición&lt;/p&gt;
+
+&lt;p&gt;Nic Motta: Diseño numérico&lt;/p&gt;
+
+&lt;h2 id=&quot;dispositivo--duración&quot;&gt;Dispositivo / Duración&lt;/h2&gt;
+
+&lt;p&gt;Video / 4min 12sec&lt;/p&gt;</content><author><name>Nic Motta</name></author><summary type="html">Abstract</summary></entry></feed>
