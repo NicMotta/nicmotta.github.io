@@ -5,7 +5,7 @@ date: 2020-05-01 13:32:20 # solo cambiar mes y dia
 title: data_mesh # titulo de la obra
 year: [2019]
 
-
+portada: data_mesh/data_mesh.mp4
 img: data_mesh/data_mesh.jpg
 img_2: data_mesh/data_mesh_2.jpg
 img_3:

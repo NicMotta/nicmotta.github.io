@@ -557,7 +557,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: Arial;
   /* 1 */
   font-size: 100%;
   /* 1 */
@@ -778,7 +778,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", Arial, serif;
+  font-family: Arial;
   color: #3e3e40;
   margin: 0;
   background-color: #fff;
@@ -788,9 +788,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", Arial, serif;
+  font-family: Arial;
   color: #311e3e;
-  font-weight: 400;
+  font-weight: 450;
 }
 
 img {
@@ -890,7 +890,7 @@ pre code {
 
 /* = = = = = = = = = = Header Styles = = = = = = = = = = */
 .main-header {
-  font-family: "Roboto", Arial, serif;
+  font-family: Arial;
   padding: 0px 0;
   background-color: #fff;
   -webkit-box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.3);
@@ -922,7 +922,7 @@ pre code {
 .main-header .logo a {
   font-weight: bolder;
   text-decoration: inherit;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 500;
   color: #311e3e;
   text-align: center;
@@ -1133,7 +1133,7 @@ pre code {
 }
 
 .post-card .post-card-body .post-card-title {
-  font-family: 'Lato', sans-serif;
+  font-family: Arial;
   font-weight: 700;
   font-size: 18px;
   color: #fff;
@@ -1141,7 +1141,7 @@ pre code {
 }
 
 .post-card-artista{
-  font-family: 'Lato', sans-serif;
+  font-family: Arial;
   font-weight: 500;
   font-size: 14px;
   color: #fff;
@@ -1239,7 +1239,7 @@ pre code {
 }
 
 .header-page h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: Arial;
   font-weight: 400;
   font-size: 36px;
   text-align: center;
@@ -1247,7 +1247,7 @@ pre code {
 }
 
 .header-page h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: Arial;
   font-weight: 400;
   font-size: 25px;
   text-align: center;
@@ -1306,7 +1306,7 @@ pre code {
 }
 
 .recent-box .recent-title {
-  font-family: 'Lato', sans-serif;
+  font-family: Arial;
   font-weight: 400;
   color: #311e3e;
   text-align: center;
@@ -1576,7 +1576,7 @@ pre code {
 
 .blog-tags h1 {
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: Arial;
   font-weight: 400;
   font-size: 36px;
   text-align: center;
