@@ -5,7 +5,7 @@ date: 2020-05-01 13:32:20 # solo cambiar mes y dia
 title: data_point # titulo de la obra
 year: [2019]
 
-
+portada: data_point/data_point.mp4
 img: data_point/data_point.jpg
 img_2: data_point/data_point_2.jpg
 img_3: data_point/data_point_3.jpg

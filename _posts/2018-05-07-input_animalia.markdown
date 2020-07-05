@@ -6,7 +6,7 @@ title: input_animalia # titulo de la obra
 subtitle: Sistemas en expansión
 year: [2019]
 
-
+portada: /input_animalia/input_animalia.mp4
 img: /input_animalia/input_animalia.jpg # imagen de portada con ruta de carpeta
 img_2:
 img_3: /input_animalia/input_animalia_3.jpg
