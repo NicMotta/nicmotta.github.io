@@ -5,7 +5,7 @@ date: 2020-05-01 13:32:20 # solo cambiar mes y dia
 title: Herbario de flores silvestres de América del Sur en tiempos de neoliberalismo # titulo de la obra
 year: [2019]
 
-
+portadaimg: herbario/florherbario.jpg # imagen de portada con ruta de carpeta
 img: herbario/florherbario.jpg # imagen de portada con ruta de carpeta
 img_2: herbario/herbariosilvestre.jpg
 img_3:  herbario/conjunto.jpg

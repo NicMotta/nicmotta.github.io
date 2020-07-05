@@ -5,7 +5,7 @@ date: 2020-05-01 13:32:20 # solo cambiar mes y dia
 title: Invadir / Resistir # titulo de la obra
 year: [2019]
 
-
+portadaimg: invadir_resistir/invadir1.jpg
 img: invadir_resistir/invadir1.jpg
 img_2: invadir_resistir/invadir2.jpg
 img_3: invadir_resistir/invadir3.jpg

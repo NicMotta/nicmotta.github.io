@@ -5,7 +5,7 @@ date: 2020-05-01 13:32:20 # solo cambiar mes y dia
 title: Pentagramas de clase en arte electrónico. 1º versión # titulo de la obra
 year: [2020]
 
-
+portadaimg: pentagramas/pentagrama.jpg
 img: pentagramas/pentagrama.jpg
 img_2: pentagramas/pentagrama2.jpg
 img_3: pentagramas/pentagrama3.jpg

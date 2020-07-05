@@ -5,7 +5,7 @@ layout: post
 title: Geometrías en danza y colisión # titulo de la obra
 year: [2018]
 
-
+portadaimg: /geometria/fiva.jpg
 img: /geometria/fiva.jpg # imagen de portada con ruta de carpeta
 img_2:
 img_3:

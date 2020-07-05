@@ -5,7 +5,7 @@ layout: post
 title: Intuiciones numéricas II # titulo de la obra
 year: [2018]
 
-
+portadaimg: intuiciones/intuiciones.jpg 
 img: intuiciones/intuiciones.jpg # imagen de portada con ruta de carpeta
 img_2: intuiciones/intuiciones_2.jpg
 img_3: intuiciones/intuiciones_3.jpg

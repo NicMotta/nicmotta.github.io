@@ -5,7 +5,7 @@ layout: post
 title: Proyecto Rio # titulo de la obra
 year: [2019]
 
-
+portadaimg: /rio/rio.jpg # imagen de portada con ruta de carpeta
 img: /rio/rio.jpg # imagen de portada con ruta de carpeta
 img_2: /rio/rio_2.jpg
 img_3:

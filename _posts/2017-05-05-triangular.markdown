@@ -5,7 +5,7 @@ layout: post
 title: Triangular # titulo de la obra
 year: [2017]
 
-
+portadaimg: /triangular/triangular.jpg
 img: /triangular/triangular.jpg # imagen de portada con ruta de carpeta
 img_2: /triangular/triangular_2.jpg
 img_3:
