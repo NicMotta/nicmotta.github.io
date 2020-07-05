@@ -4,7 +4,7 @@ layout: post
 title: interacción_lux_forma # titulo de la obra
 year: [2017]
 
-
+portada: /interaccion_lux_forma/interaccion.mp4
 img: /interaccion_lux_forma/interaccion.jpg # imagen de portada con ruta de carpeta
 img_2: /interaccion_lux_forma/interaccion_2.jpg
 img_3: /interaccion_lux_forma/interaccion_3.jpg
