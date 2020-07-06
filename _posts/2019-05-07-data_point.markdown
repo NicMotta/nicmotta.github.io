@@ -6,12 +6,12 @@ title: data_point # titulo de la obra
 year: [2019]
 
 portada: data_point/data_point.mp4
-img: data_point/data_point.jpg
-img_2: data_point/data_point_2.jpg
-img_3: data_point/data_point_3.jpg
-img_4: data_point/data_point_4.jpg
-img_5: data_point/data_point_5.jpg
-img_6: 
+img: data_point/data_point.jpeg
+img_2: data_point/data_point_2.jpeg
+img_3: data_point/data_point_3.jpeg
+img_4: data_point/data_point_4.jpeg
+img_5: data_point/data_point_5.jpeg
+img_6:
 video_1: https://www.youtube.com/embed/FK2WijIwLr0
 sonido_1:
 ---
