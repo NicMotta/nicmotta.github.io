@@ -6,10 +6,10 @@ title: Tradescantia, geometrías en danza y colisión # titulo de la obra
 year: [2018]
 
 portadaimg: /tradescantia/tradescantia_1.jpg
-img: /tradescantia/tradescantia_1.jpg # imagen de portada con ruta de carpeta
+img: /tradescantia/tradescantia_1.jpeg # imagen de portada con ruta de carpeta
 img_2: /tradescantia/tradescantia_2.jpg
-img_3: /tradescantia/tradescantia_3.jpg
-img_4: /tradescantia/tradescantia_4.jpg
+img_3: /tradescantia/tradescantia_3.jpeg
+img_4: /tradescantia/tradescantia_4.jpeg
 img_5: /tradescantia/tradescantia_5.jpg
 
 video_1: https://www.youtube.com/embed/izWYOrM0WCE
