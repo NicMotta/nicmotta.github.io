@@ -5,11 +5,11 @@ layout: post
 title: Intuiciones numéricas II # titulo de la obra
 year: [2018]
 
-portadaimg: intuiciones/intuiciones_3.jpg 
-img: intuiciones/intuiciones.jpg # imagen de portada con ruta de carpeta
-img_2: intuiciones/intuiciones_2.jpg
-img_3: intuiciones/intuiciones_3.jpg
-img_4: intuiciones/intuiciones_4.jpg
+portadaimg: intuiciones/intuiciones_3.jpg
+img: intuiciones/intuiciones.jpeg
+img_2: intuiciones/intuiciones_2.jpeg
+img_3: intuiciones/intuiciones_3.jpeg
+img_4: intuiciones/intuiciones_4.jpeg
 img_5:
 video_1: https://player.vimeo.com/video/303604638
 video_2: https://www.youtube.com/embed/65fKaAnUTEw
