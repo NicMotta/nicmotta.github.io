@@ -11,7 +11,7 @@ img_2: data_point/data_point_2.jpg
 img_3: data_point/data_point_3.jpg
 img_4: data_point/data_point_4.jpg
 img_5: data_point/data_point_5.jpg
-img_6: data_point/data_point.jpg
+img_6: 
 video_1: https://www.youtube.com/embed/FK2WijIwLr0
 sonido_1:
 ---
