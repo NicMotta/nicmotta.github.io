@@ -30,7 +30,10 @@ layout: default
           </div>
         </div>
 
-        <img src="/assets/img/{{page.img}}" width="100%" alt="">
+        {% if page.video_1 %}
+        <iframe width="100%" height="480" src="{{page.video_1}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        {% endif %}
+
         <br>
 
         {{page.content | markdownify}}
@@ -38,10 +41,8 @@ layout: default
         <br>
         <h2>Registro</h2>
         <br>
-        
-        {% if page.video_1 %}
-        <iframe width="100%" height="480" src="{{page.video_1}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        {% endif %}
+        <img src="/assets/img/{{page.img}}" width="100%" alt="">
+        <br>
 
         {% if page.video_2 %}
         <br>
