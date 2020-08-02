@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2020-08-02 18:12:00 # solo cambiar mes y dia
+date: 2020-05-03 18:12:00 # solo cambiar mes y dia
 
 title: sistema_innatural_1 # titulo de la obra
 year: [2020]
