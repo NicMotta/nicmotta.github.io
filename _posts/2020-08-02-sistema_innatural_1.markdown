@@ -51,6 +51,7 @@ semillas, programación, patrón, sistemas, morfogénesis, numérico, natural, d
 
 ## [Descarga]
 
-[Descargar: sistema_innatural_1 v2.0](https://github.com/NicMotta/eje_tiempo/raw/master/sistema_innatural_1%20v2.0.rar)
+[sistema_innatural_1 v2.0](https://github.com/NicMotta/eje_tiempo/raw/master/sistema_innatural_1%20v2.0.rar)
+*(Actualmente disponible únicamente para Windows)*
 
 ## [Registro]
