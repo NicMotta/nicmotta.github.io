@@ -15,7 +15,7 @@ video_1: https://www.youtube.com/embed/pefyad-Ljo4
 video_2:
 sonido_1:
 p3d_1:
-shiftr.io: https://shiftr.io/nicmotta/tp_mae/embed?zoom=1
+shiftr: https://shiftr.io/nicmotta/tp_mae/embed?zoom=1
 
 img_desc: Software "sistema_innatural_1" versión 2.0
 img_2desc: Creación de puntos y envío a través de internet + visualización (Processing).
