@@ -4,7 +4,7 @@ layout: post
 
 title: input_animalia # titulo de la obra
 subtitle: Sistemas en expansión
-year: [2019]
+year: [2018]
 
 portada: /input_animalia/input_animalia.mp4
 img: /input_animalia/input_animalia.jpg # imagen de portada con ruta de carpeta
