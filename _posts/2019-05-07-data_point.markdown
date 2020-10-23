@@ -17,7 +17,7 @@ sonido_1:
 ---
 
 ## Abstract
-“data_point” que nació a partir de la investigación del comportamiento de diferentes sistemas naturales junto con el análisis de imagen traducido a geometrías y valores numéricos. Durante la instalación de la obra, la alimentación o input  que daba inicio a la conducta de la obra de dicho sistema sucedía a través del sensado del espacio en sala. En el traspaso de información había una búsqueda de patrones y acciones a tomar por parte de la obra, determinadas por el entorno que la rodeaba. Entonces, comencé a reflexionar más direccionalmente sobre los datos numéricos, su naturaleza y  posibles traducciones, tal como lo explica Sadin:
+“data_point” nació a partir de la investigación del comportamiento de diferentes sistemas naturales junto con el análisis de imagen traducido a geometrías y valores numéricos. Durante la instalación de la obra, la alimentación o input  que daba inicio a la conducta de la obra de dicho sistema sucedía a través del sensado del espacio en sala. En el traspaso de información había una búsqueda de patrones y acciones a tomar por parte de la obra, determinadas por el entorno que la rodeaba. Entonces, comencé a reflexionar más direccionalmente sobre los datos numéricos, su naturaleza y  posibles traducciones, tal como lo explica Sadin:
 
 *La computación automatizada realiza un doble movimiento: por un lado, procede a una forma de abstracción esencial de ciertas zonas de la realidad y, por el otro, instaura una distancia, “triturando” los códigos binarios durante la realización de una tarea o frente a toda producción de resultados, a diferencia de la mecánica, que no opera jamás en diferido, sino en la mera expectativa de la transferencia de energía.* (Sadin, 2018, p.42). 
 
