@@ -40,7 +40,7 @@ Los recientes avances en el machine *learning >> redes neuronales* y su fácil a
 Es por esto que aplicando las posibilidades de estas inteligencias artificiales decido crear un clon basado en mi información personal. Una de las cosas que entendí es que es imposible situarme en el mundo como individuo aislado, cuando en realidad el entorno influye directamente. Un dato solitario no es útil, los cómputos incluyen cantidades importantes para llegar a certezas.
 
 
-El proyecto **data_nec**, que deriva de [sistema_innatural_1](nicmotta.github.io/sistema_innatural_1) es el comienzo de un proceso que continuará más allá del eje espacio de la MAE. Ampliando cada vez más la base de datos y por lo tanto mejorando la interactividad entre el clon y yo. Pensando en una etapa próxima con la presencialidad y la robótica, puedo imaginar dispositivos que me permitan dialogar e interactuar con data_nec de manera directa y física, posibilitando la transferencia de datos biométricos. Pudiendo tener conexión no solo numérica, sino también personal y emocional.
+El proyecto **data_nec**, que deriva de [sistema_innatural_1](https://nicmotta.github.io/sistema_innatural_1/) es el comienzo de un proceso que continuará más allá del eje espacio de la MAE. Ampliando cada vez más la base de datos y por lo tanto mejorando la interactividad entre el clon y yo. Pensando en una etapa próxima con la presencialidad y la robótica, puedo imaginar dispositivos que me permitan dialogar e interactuar con data_nec de manera directa y física, posibilitando la transferencia de datos biométricos. Pudiendo tener conexión no solo numérica, sino también personal y emocional.
 
 
 ### [Palabras clave]
