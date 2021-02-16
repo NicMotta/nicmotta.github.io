@@ -1,0 +1,134 @@
+---
+layout: post
+date: 2021-02-16 18:12:00 # solo cambiar mes y dia
+
+title: data_nec_2 # titulo de la obra
+year: [2021]
+
+portada: /data_nec_2/portada.PNG
+img: /data_nec_2/interfaz_1.jpeg 
+img_2: /data_nec_2/interfaz_2.jpeg 
+img_3: /data_nec_2/diagrama_funcionamiento.PNG 
+img_4:
+img_5:
+video_1: https://www.youtube.com/embed/rYoeXJ7YXlg
+video_2: 
+sonido_1:
+p3d_1:
+shiftr: 
+
+img_desc: 
+img_2desc: 
+img_3desc: 
+img_4desc:
+img_5desc:
+img_6desc:
+---
+
+## [Abstract]
+
+El 2021 me recibe con grandes cambios en mi vida, uno de los más significativos es mudarme a un nuevo barrio. Es por ello que en continuidad con mi proyecto de Maestría [*data_nec*](https://nicmotta.github.io/data_nec/) elaboro *data_nec_2*. 
+ 
+**Mi ser se convierte así en un ser digital.**
+El pensarme como número hace que me plantee *¿De qué manera manejar esos números? ¿Es posible manipular mi existencia? ¿Tendré el control sobre mi yo digital?*
+ 
+Decido emprender un recorrido de mi nuevo barrio y alrededores, pero no solo de manera física sino también incorporar mi *ser digital*. A través del sensor [MPU9250] transformo mis movimientos durante la caminata en valores numéricos que luego son transformados en sonido y visuales.
+ 
+En esta acción no solo diagramo un recorrido mental de mi nuevo territorio, sino que también genero un mapa virtual y sonoro. 
+ 
+Se trata de una interfaz montada en un tapabocas autónoma capaz de conectarse a internet y enviar información a la nube. Dichos datos son procesados y manipulados por un software en el cual se genera sonido y video en tiempo real.
+
+
+
+### Código Arduino en ESP32
+
+```c++
+// Librerias
+#include "EspMQTTClient.h"
+#include <Wire.h>
+#include <FaBo9Axis_MPU9250.h>
+
+FaBo9Axis SensorMPU9250;
+
+EspMQTTClient client(
+  "Data-NEC",   // Nombre WIFI
+  "*********",               // Contraseña WIFI
+  "data-nec.cloud.shiftr.io",  // MQTT Broker Server
+  "data-nec",                  // Usuario
+  "*********",          // Contraseña / Token
+  "DATA-NEC-sensor",           // Nombre del dispositivo
+  1883                         // Puerto
+);
+
+void setup()
+{
+  Serial.begin(115200);
+}
+
+
+void onConnectionEstablished()
+{
+
+Serial.println("RESET");
+  Serial.println();
+
+  Serial.println("Configurando dispositivo");
+
+  if (SensorMPU9250.begin()) {
+    Serial.println("MPU9250 configurado correctamente :D");
+  } else {
+    Serial.println("¡Error en el dispositivo!");
+    while(1);
+  }
+  
+}
+
+void loop()
+{
+  client.loop();
+
+  float ax,ay,az;
+  float gx,gy,gz;
+  float mx,my,mz;
+  float temp;
+
+  SensorMPU9250.readAccelXYZ(&ax,&ay,&az);
+  SensorMPU9250.readGyroXYZ(&gx,&gy,&gz);
+  SensorMPU9250.readMagnetXYZ(&mx,&my,&mz);
+  SensorMPU9250.readTemperature(&temp);
+  
+  String giroscopiox = String(gx);
+  String giroscopioy = String(gy);
+  String giroscopioz = String(gz);
+  String acelerometrox = String(ax);
+  String acelerometroy = String(ay);
+  String acelerometroz = String(az);
+  String magnetometrox = String(mx);
+  String magnetometroy = String(my);
+  String magnetometroz = String(mz);
+  String temperatura = String(temp);
+
+  String data_nec = String(
+  giroscopiox + "," + 
+  giroscopioy + "," + 
+  giroscopioz + "," + 
+  acelerometrox + "," + 
+  acelerometroy + "," + 
+  acelerometroz + "," + 
+  magnetometrox + "," + 
+  magnetometroy + "," + 
+  magnetometroz + "," + 
+  temperatura
+  ); 
+
+  client.publish("MPU9250/data-nec", data_nec);
+  
+  delay (500);
+}
+
+```
+
+
+## [Registro]
+
+
