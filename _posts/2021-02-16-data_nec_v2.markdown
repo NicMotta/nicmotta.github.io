@@ -6,10 +6,10 @@ title: data_nec_2 # titulo de la obra
 year: [2021]
 
 portada: /data_nec_2/portada.PNG
-img: /data_nec_2/interfaz_1.jpeg 
-img_2: /data_nec_2/interfaz_2.jpeg 
-img_3: /data_nec_2/diagrama_funcionamiento.PNG 
-img_4:
+img: /data_nec_2/portada.PNG
+img_2: /data_nec_2/interfaz_1.jpeg 
+img_3: /data_nec_2/interfaz_2.jpeg 
+img_4: /data_nec_2/diagrama_funcionamiento.PNG 
 img_5:
 video_1: https://www.youtube.com/embed/rYoeXJ7YXlg
 video_2: 
