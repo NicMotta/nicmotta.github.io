@@ -1,0 +1,62 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Image from "../components/Image.astro";
+
+const {
+	content: { title, subtitle, year, video, videoProcess, imgPortada, imgDos, imgTres, imgCuatro },
+} = Astro.props
+---
+<Layout title={title}>
+
+  <h1 class="text-center mt-5 font-bold text-xl">[ {title} ]</h1>
+  <h1 class="text-base text-center"></h1>
+  <h1 class="text-center text-gray-400">[ {year} ]</h1>
+
+  <hr class="w-1/2 m-auto my-2">
+
+  <div>
+    <iframe
+      id="video-1"
+      class="w-full h-60 mb-5 md:h-96"
+      src={video}
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
+
+  <div class="text-left mb-5 w-full">
+    <h3 class="font-bold text-lg">[ abstract ]</h3>
+    <div class="text-base">
+				<slot/>
+    </div>
+  </div>
+  <hr class="w-1/2 m-auto my-2">
+
+  { (videoProcess==="")
+    ? null
+    : <div>
+        <iframe
+          id="video-1"
+          class="w-full h-60 mb-5 md:h-96"
+          src={video}
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          >
+        </iframe>
+      </div>
+  }
+
+  <div class="grid grid-cols-1 gap-1 md:grid-cols-2">
+    <Image src={`../src/assets/img/${imgPortada.url}`} alt={imgPortada.alt}/>
+    <Image src={`../src/assets/img/${imgDos.url}`} alt={imgDos.alt}/>
+
+    {(imgTres === "" ) ? <Image src={`../src/assets/img/${imgTres.url}`} alt={imgTres.alt}/> : null}
+    {(imgCuatro === "" ) ? <Image src={`../src/assets/img/${imgCuatro.url}`} alt={imgCuatro.alt}/> : null}
+
+  </div>
+  <!-- IMAGENES -->
+</Layout>

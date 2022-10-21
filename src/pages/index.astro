@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import { projects } from '../js/proyectos';
+---
+
+<Layout title="i n i c i o">
+	<h3 class="text-center mt-5 font-bold text-xl">[ proyectos ]</h3>
+	<hr class="w-1/2 m-auto my-2">
+
+{projects?.map((item) => (
+<Card title={item.title} year={item.year} url={item.url} img={item.images[0]} />
+))}
+
+</Layout>
+

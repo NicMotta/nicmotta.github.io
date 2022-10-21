@@ -1,0 +1,27 @@
+---
+import FooterButton from "./FooterButton.astro";
+
+var currentTime = new Date();
+var year = currentTime.getFullYear()
+---
+<hr class="w-full my-5 m-auto">
+<div class="grid grid-cols-2 gap-1 text-sm text-center mt-3 md:grid-cols-4">
+  <FooterButton title="instagram" url="https://www.instagram.com/nicmotta_"/>
+  <FooterButton title="linkedin" url="https://www.linkedin.com/in/nic-motta/"/>
+  <FooterButton title="youtube" url="https://www.youtube.com/channel/UCzcHwERGhtBfxYfLtzDT0nA"/>
+  <FooterButton title="github" url="https://github.com/NicMotta"/>
+</div>
+
+<div class="grid grid-cols-1 gap-1 text-sm text-center md:grid-cols-2 mt-2">
+  <div>
+    | made with
+    <a class="font-bold hover:text-gray-400" href="https://astro.build/">astro</a> +
+    <a class="font-bold hover:text-gray-400" href="https://tailwindcss.com/">tailwind css</a>
+    and love
+    |
+  </div>
+  <div>
+    | n i c , m o t t a  - {year} |
+  </div>
+
+</div>

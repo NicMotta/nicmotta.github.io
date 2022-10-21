@@ -1,0 +1,51 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Link from '../components/Link.astro';
+---
+
+<Layout title="b i o">
+  <h3 class="text-center mt-5 font-bold text-xl">[ bio ]</h3>
+    <hr class="w-1/2 m-auto my-2">
+
+    <h1 class="text-base text-center mt-3">artista electro / digital</h1>
+    <h1 class="text-center text-gray-400">[ n. 1994, Buenos Aires - Argentina ]</h1>
+
+    <br>
+    <hr class="w-1/4 m-auto my-2">
+
+  <div class="grid grid-cols-1 md:grid-cols-2">
+    <div class="text-left text-sm">
+      <p>Artista, docente, investigador.
+      <br> Licenciado en Artes Visuales <Link title="(UNA)" url="https://visuales.una.edu.ar/"/> y maestrando la Maestría en Tecnologías y Estéticas de las Artes Electrónicas <Link title="(UNTREF)" url="https://untref.edu.ar/"/></p>
+      <br>
+      <p>Se desarrolla dentro de la programación visual, modelado e impresión 3D y el video mapping. Incursionó en el sonido y la electrónica para desarrollar interfaces y sensores.
+      Le interesa la relación entre lo visual y lo sonoro, encontrar y analizar la geometría de estos universos potenciado por un desarrollo electro-digital detras.
+      Actualmente aborda la inteligencia artificial y algoritmos para conectar y representar diferentes espacios a través del dato numérico.</p>
+      <br>
+      <p>Es parte de los grupos artísticos colaborativos: <br/>
+        <Link title="MURU 7.8" url="https://muru7-8.github.io/"/> y <Link title="Transelectronicxs" url=""/></p>
+      <br>
+      <p>Premiado en ArCiTec (2018), el Festival de Videoarte Proyector, España (2018). Expuso en Bienalsur 2019 (Buenos Aires / Costa Rica), Fundación PROA, Argentina (2020), FACTORS 8.0, Brasil (2021), también en España y Colombia. <br> Bienal de La Habana, Cuba junto a su grupo MURU 7.8 (2021).</p>
+    </div>
+
+    <div class="w-full mx-auto pb-5 order-first md:order-3 md:w-3/4">
+      <img class="rounded" src="../../public/assets/images/bio.jpg" alt="">
+    </div>
+
+  </div>
+
+  <div class="text-left text-sm">
+    <hr class="w-1/2 p-2">
+    <h3 class="font-bold text-base pb-2">[ estudios ]</h3>
+    <ul>
+      <li> <b>() Maestría en Artes Electrónicas</b>  — Universidad Nacional Tres de Febrero, <span class="text-gray-400">2020 - actualidad</span></li>
+      <li> <b>() Inteligencia Artificial para la Producción Musical</b> — WIP Arte Digital, <span class="text-gray-400">2020</span></li>
+      <li> <b>() Licenciatura en Artes Visuales</b> — Universidad Nacional de las Artes, <span class="text-gray-400">2013 - 2019</span></li>
+      <li> <b>() Inteligencia Artificial aplicada al Arte </b> — C.C. Matienzo, <span class="text-gray-400">2019</span></li>
+      <li> <b>() Programación de Mini-chips</b> — Instituto Baikal, <span class="text-gray-400">2018</span></li>
+      <li> <b>() Sonido, introducción al live coding</b> — +CODE, UNSAM, <span class="text-gray-400">2018</span></li>
+      <li> <b>() Mapping e interfaces inalámbricas</b> — Espacio Pla, <span class="text-gray-400">2017</span></li>
+    </ul>
+  </div>
+
+</Layout>

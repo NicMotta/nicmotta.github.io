@@ -1,0 +1,29 @@
+---
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro';
+
+const {title} = Astro.props
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;400;500;600;700;800&display=swap" rel="stylesheet">
+	<title>[ n i c , m o t t a ] - {title}</title>
+</head>
+<body style="font-family: 'JetBrains Mono', monospace;">
+	<div class="max-w-5xl p-3 m-auto">
+		<Header/>
+		<slot>
+      <!-- Código  -->
+    </slot>
+		<Footer/>
+	</div>
+
+</body>
+</html>
