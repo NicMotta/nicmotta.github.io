@@ -1,3 +1,7 @@
-# Welcome to Nic Motta - DEVELOP
+# Welcome to [Nic Motta](https://nicmotta.github.io/) web repository
 
-Framework: Astro, Tailwind CSS
+**Created with:**
+  - [Astro.build](https://astro.build/)
+  - [Tailwind CSS](https://tailwindcss.com/)
+
+*version 2.0, Oct 2022*
