@@ -104,7 +104,7 @@ export let projects = [
     subtitle: '',
     year: '2019',
     images: [
-      'data_mesh/data_mesh1.jpg',
+      'data_mesh/data_mesh_1.jpg',
       'data_mesh/data_mesh_2.jpg'
     ],
     videos: [
