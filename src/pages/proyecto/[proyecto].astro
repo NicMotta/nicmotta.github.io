@@ -1,12 +1,11 @@
 ---
-import { projects  } from '../../js/proyectos';
+import { PROYECTS  } from '../../constants';
 import Layout from "../../layouts/Layout.astro";
-import Image from "../../components/Image.astro";
-import Video from "../../components/Video.astro";
+import { Image, Video } from '../../components';
 
 export async function getStaticPaths() {
 
-  return projects?.map((
+  return PROYECTS?.map((
     { url, title, subtitle, year, videos, images, parrafos }) => {
     return {
       params: { proyecto: url },

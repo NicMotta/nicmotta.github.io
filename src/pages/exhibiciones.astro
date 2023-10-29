@@ -1,5 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { EXHIBITIONS } from '../constants';
+import { ExhibitionList } from "../components";
 ---
 <Layout title="e x h i b i c i o n e s">
   <h3 class="text-center mt-5 font-bold text-xl">[ exhibiciones ]</h3>
@@ -7,7 +9,11 @@ import Layout from "../layouts/Layout.astro";
 
   <div class="grid grid-cols-1 md:grid-cols-1">
     <div class="text-left text-sm">
-      <h3 class="pt-4 pb-2 font-bold text-base">[ 2022 ]</h3>
+
+      {EXHIBITIONS.map( exhibition => (
+        <ExhibitionList items={exhibition} />
+      ))}
+      <!-- <h3 class="pt-4 pb-2 font-bold text-base">[ 2022 ]</h3>
       <ul class="py-1">
         <li> <b>() Residencia LIC - Laboratorio de Indicadores Culturales</b><span class="text-gray-500"> — El túnel / Entre Rios, Argentina</span></li>
       </ul>
@@ -46,7 +52,7 @@ import Layout from "../layouts/Layout.astro";
       <h3 class="pt-4 pb-2 font-bold text-base">[ 2017 ]</h3>
         <ul class="py-1">
           <li> <b>() FASE9 - Noviembre Electrónico</b><span class="text-gray-500"> — Centro Cultural San Martin / Buenos Aires, Argentina</span></li>
-        </ul>
+        </ul> -->
     </div>
   </div>
 </Layout>
