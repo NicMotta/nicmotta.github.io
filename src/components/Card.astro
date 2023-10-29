@@ -6,8 +6,8 @@ const { title, year, img, url } = Astro.props
   <a href={`/proyecto/${url}`}>
     <div class="bg-gray-100 absolute top-10 left-5 p-1 m-1">
       <p class="text-base font-bold md:text-lg">{title}</p>
-      <p class="text-sm text-gray-500 font-bold md:text-base">[{year}]</p>
+      <p class="text-sm text-gray-600 font-bold md:text-base">[{year}]</p>
     </div>
-    <img class="object-cover h-full w-full" src={`./assets/images/${img}`} alt=""> 
+    <img class="object-cover h-full w-full" src={`./assets/images/${img}`} alt="">
   </a>
 </div>

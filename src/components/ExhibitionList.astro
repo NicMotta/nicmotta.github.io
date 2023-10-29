@@ -1,0 +1,10 @@
+---
+const {items} = Astro.props
+---
+
+  <h3 class="pt-4 pb-2 font-bold text-base">[ {items.year} ]</h3>
+  <ul class="py-1">
+    {items.list?.map(listItem => (
+      <li><b>· {listItem.title}</b><span class="text-gray-500"> — {listItem.subtitle} / <b>{listItem.location}</b></span></li>
+    ))}
+  </ul>
