@@ -1,26 +1,32 @@
 ---
 import { FooterButton } from "../components/";
+import { BIO_CONTENT } from "../constants";
 
 var currentTime = new Date();
-var year = currentTime.getFullYear()
+var year = currentTime.getFullYear();
 ---
-<hr class="w-full my-5 m-auto">
+
+<hr class="w-full my-5 m-auto" />
 <div class="grid grid-cols-2 gap-1 text-sm text-center mt-3 md:grid-cols-4">
-  <FooterButton title="instagram" url="https://www.instagram.com/nicmotta_"/>
-  <FooterButton title="linkedin" url="https://www.linkedin.com/in/nic-motta/"/>
-  <FooterButton title="youtube" url="https://www.youtube.com/channel/UCzcHwERGhtBfxYfLtzDT0nA"/>
-  <FooterButton title="github" url="https://github.com/NicMotta"/>
+  {
+    BIO_CONTENT.contact.map((item) => (
+      <FooterButton title={item.title} url={item.url} />
+    ))
+  }
 </div>
 
 <div class="grid grid-cols-1 gap-1 text-sm text-center md:grid-cols-2 mt-2">
   <div>
     | made with
-    <a class="font-bold hover:text-gray-400" href="https://astro.build/">astro</a> +
-    <a class="font-bold hover:text-gray-400" href="https://tailwindcss.com/">tailwind css</a>
+    <a class="font-bold hover:text-gray-400" href="https://astro.build/"
+      >astro</a
+    > +
+    <a class="font-bold hover:text-gray-400" href="https://tailwindcss.com/"
+      >tailwind css</a
+    >
     |
   </div>
   <div>
-    | n i c , m o t t a  - {year} |
+    | n i c , m o t t a - {year} |
   </div>
-
 </div>
