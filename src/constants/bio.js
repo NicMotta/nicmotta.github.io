@@ -65,7 +65,7 @@ export const BIO_CONTENT = {
       year: "2020 - 2021",
     },
     {
-      title: "OTAV Dibujo I. Cátedra Molina, UNA Artes Visuales",
+      title: "OTAV Dibujo I. Cátedra Molina.",
       subtitle: "UNA Artes Visuales",
       year: "2019",
     },
@@ -80,7 +80,6 @@ export const BIO_CONTENT = {
       year: "2015 - 2017",
     },
   ],
-  skills: [],
   prizes: [],
   investigation: [
     {

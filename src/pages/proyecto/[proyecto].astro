@@ -1,48 +1,49 @@
 ---
-import { PROYECTS  } from '../../constants';
+import { PROYECTS } from "../../constants";
 import Layout from "../../layouts/Layout.astro";
-import { Image, Video } from '../../components';
+import { Image, Video, Link } from "../../components";
 
 export async function getStaticPaths() {
-
-  return PROYECTS?.map((
-    { url, title, subtitle, year, videos, images, parrafos }) => {
-    return {
-      params: { proyecto: url },
-      props: { url, title, subtitle, year, videos, images, parrafos},
-    };
-  });
+  return PROYECTS?.map(
+    ({ url, title, subtitle, year, videos, images, parrafos, link }) => {
+      return {
+        params: { proyecto: url },
+        props: { url, title, subtitle, year, videos, images, parrafos, link },
+      };
+    }
+  );
 }
 
-const {
-  url,
-  title,
-  subtitle,
-  year,
-  videos,
-  images,
-  parrafos } = Astro.props
+const { url, title, subtitle, year, videos, images, parrafos, link } =
+  Astro.props;
 ---
+
 <Layout title={url}>
   <h1 class="text-center mt-5 font-bold text-xl">[ {title} ]</h1>
-  {subtitle !== '' ? <h1 class="text-base text-center">{subtitle}</h1> : null}
+  {subtitle !== "" ? <h1 class="text-base text-center">{subtitle}</h1> : null}
   <h1 class="text-center text-gray-400">[ {year} ]</h1>
 
-  <hr class="w-1/2 m-auto my-2">
+  <hr class="w-1/2 m-auto my-2" />
 
-  {!!videos[0] ? <Video src={videos[0]}/> : null}
+  {!!videos[0] ? <Video src={videos[0]} /> : null}
 
   <div class="text-left mb-5 w-full">
     <h3 class="font-bold text-lg">[ abstract ]</h3>
     <div class="text-base">
-      {parrafos?.map(parrafo => <p class="my-4">{parrafo}</p>)}
+      {parrafos?.map((parrafo) => <p class="my-4">{parrafo}</p>)}
     </div>
   </div>
-  <hr class="w-1/2 m-auto my-2">
 
-  {!!videos[1] ? <Video src={videos[1]}/> : null}
+  {link && <Link title={link.title} url={link.url} />}
+  <hr class="w-1/2 m-auto my-2" />
+
+  {!!videos[1] ? <Video src={videos[1]} /> : null}
 
   <div class="grid grid-cols-1 gap-1 md:grid-cols-2">
-    {images?.map(image => <Image src={`../../assets/images/${image}`} alt={image}/>)}
+    {
+      images?.map((image) => (
+        <Image src={`../../assets/images/${image}`} alt={image} />
+      ))
+    }
   </div>
 </Layout>
