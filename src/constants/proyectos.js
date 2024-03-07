@@ -6,9 +6,9 @@ export let PROYECTS = [
     year: "2023",
     images: [
       "respiro-namiki-2/respiro-namiki-1.jpg",
-      "respiro-namiki-2/respiro-namiki-2.jpeg",
-      "respiro-namiki-2/respiro-namiki-3.jpeg",
-      "respiro-namiki-2/respiro-namiki-4.jpeg",
+      "respiro-namiki-2/respiro-namiki-2.jpg",
+      "respiro-namiki-2/respiro-namiki-3.jpg",
+      "respiro-namiki-2/respiro-namiki-4.jpg",
     ],
     videos: ["https://www.youtube.com/embed/SdXMahmvjEM"],
     link: {
@@ -32,8 +32,8 @@ export let PROYECTS = [
     subtitle: "",
     year: "2021 - 2023",
     images: [
-      "respiro-namiki/respiro-namiki-1.webp",
-      "respiro-namiki/respiro-namiki-2.webp",
+      "respiro-namiki/respiro-namiki-1.jpg",
+      "respiro-namiki/respiro-namiki-2.jpg",
       "respiro-namiki/respiro-namiki-3.jpg",
       "respiro-namiki/respiro-namiki-4.jpg",
     ],
