@@ -1,6 +1,7 @@
 ---
 import LayoutCv from "../layouts/LayoutCv.astro";
-import { Link } from "../components";
+import { Link, FooterButton } from "../components";
+import { BIO_CONTENT } from "../constants";
 ---
 
 <LayoutCv title="cv">
@@ -9,9 +10,16 @@ import { Link } from "../components";
   <h1 class="text-base mt-3">Artista | Docente | Investigador</h1>
   <h1 class="text-gray-400">[ Buenos Aires, Argentina ]</h1>
 
-  <br />
   <hr class="w-1/4 my-2" />
+  <div class="grid grid-cols-2 gap-1 text-sm text-center mt-3 md:grid-cols-4">
+    {
+      BIO_CONTENT.contact.map((item) => (
+        <FooterButton title={item.title} url={item.url} />
+      ))
+    }
+  </div>
 
+  <br />
   <div class="">
     <div class="text-left text-sm">
       <p>
@@ -57,40 +65,54 @@ import { Link } from "../components";
 
   <div class="text-left text-sm">
     <hr class="w-1/2 my-4" />
+    <h3 class="font-bold text-base pb-2">[ experiencia docente ]</h3>
+    <ul>
+      {
+        BIO_CONTENT.experience.map((item, index) => (
+          <li class="py- font-base">
+            <b>· {item.title}</b> — {item.subtitle},
+            <span class="text-gray-500">{item.year}</span>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+
+  <div class="text-left text-sm">
+    <hr class="w-1/2 my-4" />
+    <h3 class="font-bold text-base pb-2">[ investigación académica ]</h3>
+    <ul>
+      {
+        BIO_CONTENT.investigation.map((item, index) => (
+          <li class="py-2 font-base">
+            <div>
+              <p>
+                <b>· {item.title}</b>
+              </p>
+              <p>— {item.subtitle},</p>
+              <span class="text-gray-500">Dirección: {item.director}</span>
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+
+  <div class="text-left text-sm">
+    <hr class="w-1/2 my-4" />
     <h3 class="font-bold text-base pb-2">[ estudios ]</h3>
     <ul>
-      <li class="py-1">
-        <b>· Maestría en Artes Electrónicas</b> — Universidad Nacional Tres de Febrero,
-        <span class="text-gray-500">2020 - 2022</span>
-      </li>
-      <li class="py-1">
-        <b>· Inteligencia Artificial para la Producción Musical</b> — WIP Arte Digital,
-        <span class="text-gray-500">2020</span>
-      </li>
-      <li class="py-1">
-        <b>· Licenciatura en Artes Visuales</b> — Universidad Nacional de las Artes,
-        <span class="text-gray-500">2013 - 2019</span>
-      </li>
-      <li class="py-1">
-        <b>· Inteligencia Artificial aplicada al Arte</b> — C.C. Matienzo, <span
-          class="text-gray-500">2019</span
-        >
-      </li>
-      <li class="py-1">
-        <b>· Programación de Mini-chips</b> — Instituto Baikal, <span
-          class="text-gray-500">2018</span
-        >
-      </li>
-      <li class="py-1">
-        <b>· Sonido, introducción al live coding</b> — +CODE, UNSAM, <span
-          class="text-gray-500">2018</span
-        >
-      </li>
-      <li class="py-1">
-        <b>· Mapping e interfaces inalámbricas</b> — Espacio Pla, <span
-          class="text-gray-500">2017</span
-        >
-      </li>
+      {
+        BIO_CONTENT.education.map((item, index) => (
+          <>
+            <li class="py- font-base">
+              <b>· {item.title}</b> — {item.subtitle},
+              <span class="text-gray-500">{item.year}</span>
+            </li>
+            {index == 1 && <hr class="w-1/2 my-4" />}
+          </>
+        ))
+      }
     </ul>
   </div>
 </LayoutCv>

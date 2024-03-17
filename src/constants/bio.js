@@ -3,7 +3,7 @@ export const BIO_CONTENT = {
   description: "",
   education: [
     {
-      title: "Maestría en Artes Electrónicas",
+      title: "Maestría en Tecnologías y Estéticas de las Artes Electrónicas",
       subtitle: "Universidad Nacional Tres de Febrero",
       year: "2020 - 2022",
     },
@@ -83,15 +83,21 @@ export const BIO_CONTENT = {
   prizes: [],
   investigation: [
     {
+      title:
+        "Escrituras algorítmicas en las artes: hacia una cartografía crítica de poéticas electrónicas argentinas (tramo II)",
+      subtitle: "UNC | Universidad Nacional de Córdoba",
+      director: "Anahí Alejandra Ré / Jazmín Adler",
+    },
+    {
       title: "Enseñanza y Praxis Transdisciplinares en las Artes Electrónicas",
       subtitle:
-        "UNTREF - Maestría en Tecnologías y Estéticas de las Artes Electrónicas",
+        "UNTREF | Universidad Nacional de Tres de Febrero - Maestría en Tecnologías y Estéticas de las Artes Electrónicas",
       director: "Claudia Valente",
     },
     {
       title:
         "La incidencia de las técnicas y tecnologías en la construcción del discurso en el dibujo en Argentina: El dibujo desde 1990 - 2017",
-      subtitle: "UNA - Artes Visuales",
+      subtitle: "UNA | Universidad Nacional de las Artes - Artes Visuales",
       director: "Carlos Molina",
     },
   ],
