@@ -27,31 +27,32 @@ const id = 1;
     let matchs = [];
     let size = 0;
     let sizeMovement = 8;
+    let HEIGHT;
 
     setInterval(setPoints, 50);
 
     function setup() {
-      createCanvas(windowWidth, windowHeight - 200);
-      rectMode(CENTER);
+      HEIGHT = windowWidth < 768 ? windowHeight - 400 : windowHeight - 200;
+      createCanvas(windowWidth, HEIGHT);
       axis.maga.x = random(50, windowWidth);
-      axis.maga.y = random(50, windowHeight - 200);
+      axis.maga.y = random(50, HEIGHT);
       axis.nic.x = random(50, windowWidth);
-      axis.nic.y = random(50, windowHeight - 200);
+      axis.nic.y = random(50, HEIGHT);
       axis.nic.points.push({
         x: Math.max(0, Math.min(axis.nic.x, windowWidth)),
-        y: Math.max(0, Math.min(axis.nic.y, windowHeight - 200)),
+        y: Math.max(0, Math.min(axis.nic.y, HEIGHT)),
       });
 
       axis.maga.points.push({
         x: Math.max(0, Math.min(axis.maga.x, windowWidth)),
-        y: Math.max(0, Math.min(axis.maga.y, windowHeight - 200)),
+        y: Math.max(0, Math.min(axis.maga.y, HEIGHT)),
       });
 
       randomSeed(random(2000));
     }
 
     function windowResized() {
-      resizeCanvas(windowWidth, windowHeight - 200);
+      resizeCanvas(windowWidth, HEIGHT);
     }
 
     function setPoints() {
@@ -59,7 +60,7 @@ const id = 1;
         axis && dist(axis.maga.x, axis.maga.y, axis.nic.x, axis.nic.y);
       let points = axis.nic.points.length;
 
-      if (points > 5000) {
+      if (points > 3000) {
         matchs = [];
         axis.nic.points = [];
         axis.maga.points = [];
@@ -73,12 +74,12 @@ const id = 1;
       size = axis.nic.points.length;
       axis.nic.points.push({
         x: Math.max(0, Math.min(axis.nic.x, windowWidth)),
-        y: Math.max(0, Math.min(axis.nic.y, windowHeight - 200)),
+        y: Math.max(0, Math.min(axis.nic.y, HEIGHT)),
       });
 
       axis.maga.points.push({
         x: Math.max(0, Math.min(axis.maga.x, windowWidth)),
-        y: Math.max(0, Math.min(axis.maga.y, windowHeight - 200)),
+        y: Math.max(0, Math.min(axis.maga.y, HEIGHT)),
       });
 
       if (distance < 20) {
@@ -114,9 +115,9 @@ const id = 1;
 
       // draw match
       for (let i = 0; i < matchs.length; i++) {
-        stroke(0, 0, 255);
+        stroke(255, 0, 0);
         noFill();
-        rect(matchs[i].x, matchs[i].y, 30, 30);
+        ellipse(matchs[i].x, matchs[i].y, 20, 20);
       }
 
       // draw names
