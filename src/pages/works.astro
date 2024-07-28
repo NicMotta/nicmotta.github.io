@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Card } from "../components";
+import { WORKS } from "../constants";
+---
+
+<Layout title="w o r k s">
+  <h3 class="text-center mt-5 font-bold text-xl">[ works ]</h3>
+  <hr class="w-1/2 m-auto my-2" />
+  <ul>
+    {
+      WORKS?.map((item) => (
+        <li class="py-2 font-base hover:underline">
+          <a href={item.url}>
+            <b>· {item.title}</b>, created at {item.date} of {item.year}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</Layout>

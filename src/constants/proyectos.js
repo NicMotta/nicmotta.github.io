@@ -1,4 +1,4 @@
-export let PROYECTS = [
+export const PROYECTS = [
   {
     url: "respiro-namiki-2-0",
     title: "Respiro Namiki 2.0",

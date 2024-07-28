@@ -1,0 +1,145 @@
+---
+import LayoutWorks from "../../layouts/LayoutWorks.astro";
+import { WORKS } from "../../constants";
+const id = 1;
+---
+
+<LayoutWorks title={WORKS[id].title}>
+  <p class="mt-2">
+    <b>{WORKS[id].title}</b>, created at {WORKS[id].date} of {WORKS[id].year}
+  </p>
+  <script
+    is:inline
+    src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
+  <script is:inline>
+    let axis = {
+      maga: {
+        x: 0,
+        y: 0,
+        points: [],
+      },
+      nic: {
+        x: 0,
+        y: 0,
+        points: [],
+      },
+    };
+    let matchs = [];
+    let size = 0;
+    let sizeMovement = 8;
+
+    setInterval(setPoints, 50);
+
+    function setup() {
+      createCanvas(windowWidth, windowHeight - 200);
+      rectMode(CENTER);
+      axis.maga.x = random(50, windowWidth);
+      axis.maga.y = random(50, windowHeight - 200);
+      axis.nic.x = random(50, windowWidth);
+      axis.nic.y = random(50, windowHeight - 200);
+      axis.nic.points.push({
+        x: Math.max(0, Math.min(axis.nic.x, windowWidth)),
+        y: Math.max(0, Math.min(axis.nic.y, windowHeight - 200)),
+      });
+
+      axis.maga.points.push({
+        x: Math.max(0, Math.min(axis.maga.x, windowWidth)),
+        y: Math.max(0, Math.min(axis.maga.y, windowHeight - 200)),
+      });
+
+      randomSeed(random(2000));
+    }
+
+    function windowResized() {
+      resizeCanvas(windowWidth, windowHeight - 200);
+    }
+
+    function setPoints() {
+      let distance =
+        axis && dist(axis.maga.x, axis.maga.y, axis.nic.x, axis.nic.y);
+      let points = axis.nic.points.length;
+
+      if (points > 5000) {
+        matchs = [];
+        axis.nic.points = [];
+        axis.maga.points = [];
+      }
+
+      axis.maga.x = axis.maga.x + random(-sizeMovement, sizeMovement);
+      axis.maga.y = axis.maga.y + random(-sizeMovement, sizeMovement);
+      axis.nic.x = axis.nic.x + random(-sizeMovement, sizeMovement);
+      axis.nic.y = axis.nic.y + random(-sizeMovement, sizeMovement);
+
+      size = axis.nic.points.length;
+      axis.nic.points.push({
+        x: Math.max(0, Math.min(axis.nic.x, windowWidth)),
+        y: Math.max(0, Math.min(axis.nic.y, windowHeight - 200)),
+      });
+
+      axis.maga.points.push({
+        x: Math.max(0, Math.min(axis.maga.x, windowWidth)),
+        y: Math.max(0, Math.min(axis.maga.y, windowHeight - 200)),
+      });
+
+      if (distance < 20) {
+        matchs.push({
+          x: (axis.maga.x + axis.nic.x) / 2,
+          y: (axis.maga.y + axis.nic.y) / 2,
+        });
+      }
+    }
+    function draw() {
+      background(255);
+      fill(255);
+
+      // draw lines
+      stroke(150);
+      for (let i = 0; i < axis.nic.points.length - 1; i++) {
+        line(
+          axis.nic.points[i].x,
+          axis.nic.points[i].y,
+          axis.nic.points[i + 1].x,
+          axis.nic.points[i + 1].y
+        );
+      }
+
+      for (let i = 0; i < axis.maga.points.length - 1; i++) {
+        line(
+          axis.maga.points[i].x,
+          axis.maga.points[i].y,
+          axis.maga.points[i + 1].x,
+          axis.maga.points[i + 1].y
+        );
+      }
+
+      // draw match
+      for (let i = 0; i < matchs.length; i++) {
+        stroke(0, 0, 255);
+        noFill();
+        rect(matchs[i].x, matchs[i].y, 30, 30);
+      }
+
+      // draw names
+      push();
+      fill(0);
+      noStroke();
+      ellipse(axis.maga.points[size].x, axis.maga.points[size].y, 5, 5);
+      text(
+        "[ maga ]",
+        axis.maga.points[size].x + 5,
+        axis.maga.points[size].y,
+        50,
+        50
+      );
+      ellipse(axis.nic.points[size].x, axis.nic.points[size].y, 5, 5);
+      text(
+        "[ nic ]",
+        axis.nic.points[size].x + 5,
+        axis.nic.points[size].y,
+        50,
+        50
+      );
+      pop();
+    }
+  </script>
+</LayoutWorks>

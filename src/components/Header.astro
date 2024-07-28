@@ -1,14 +1,18 @@
 ---
 import { HeaderButton } from "../components";
+import { HEADER, HEADER_TITLE } from "../constants";
 ---
+
 <div class="text-left">
-  <a href="/" class="font-bold text-2xl hover:bg-slate-900 hover:text-white sm:text-4xl">[ n i c , m o t t a ]</a>
+  <a
+    href="/"
+    class="font-bold text-2xl hover:bg-slate-900 hover:text-white sm:text-4xl"
+    >{HEADER_TITLE}</a
+  >
 </div>
 
-
-<div class="grid grid-cols-2 gap-2 text-base font-bold text-center mt-3 md:grid-cols-4">
-  <HeaderButton title="proyectos" url="/"/>
-  <HeaderButton title="bio" url="/bio"/>
-  <HeaderButton title="exhibiciones" url="/exhibiciones"/>
-  <HeaderButton title="portfolio" url="/portfolio"/>
+<div
+  class="flex flex-col md:flex-row justify-between gap-2 text-base font-bold text-center mt-3"
+>
+  {HEADER?.map((item) => <HeaderButton title={item.title} url={item.url} />)}
 </div>
