@@ -8,48 +8,10 @@ const id = 0;
   <p class="mt-2">
     <b>{WORKS[id].title}</b>, created at {WORKS[id].date} of {WORKS[id].year}
   </p>
-  <script
-    is:inline
-    src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
-  <script is:inline>
-    const axis = {
-      x: 0,
-      y: 0,
-    };
-    let sizeCircle = 50;
-    let sizeMovement = 5;
-
-    function setup() {
-      HEIGHT = windowWidth < 768 ? windowHeight - 400 : windowHeight - 200;
-      createCanvas(windowWidth, HEIGHT);
-      axis.x = windowWidth / 2;
-      axis.y = HEIGHT / 2;
-      randomSeed(random(2000));
-      sizeCircle = random(5, 100);
-      sizeMovement = random(1, 8);
-    }
-
-    function windowResized() {
-      resizeCanvas(windowWidth, HEIGHT);
-    }
-    function draw() {
-      fill(255);
-      axis.x = axis.x + random(-sizeMovement, sizeMovement);
-      axis.y = axis.y + random(-sizeMovement, sizeMovement);
-      ellipse(axis.x, axis.y, sizeCircle, sizeCircle);
-
-      if (axis.x > windowWidth) {
-        axis.x = windowWidth;
-      }
-      if (axis.y > HEIGHT) {
-        axis.y = HEIGHT;
-      }
-      if (axis.x < 0) {
-        axis.x = 0;
-      }
-      if (axis.y < 0) {
-        axis.y = 0;
-      }
-    }
-  </script>
 </LayoutWorks>
+
+<script>
+  import p5 from "p5";
+  import { mySketch } from "../../js/simple-random-drawer";
+  new p5(mySketch, document.getElementById("sketch"));
+</script>
