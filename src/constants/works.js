@@ -1,7 +1,7 @@
 export const WORKS = [
   {
     id: 0,
-    title: "simple and initial random drawer",
+    title: "simple random drawer",
     date: "28 july",
     year: 2024,
     url: "/works/simple-random-drawer",

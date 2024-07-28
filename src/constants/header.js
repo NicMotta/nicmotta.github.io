@@ -4,6 +4,10 @@ export const HEADER = [
     url: "/",
   },
   {
+    title: "works",
+    url: "/works",
+  },
+  {
     title: "bio",
     url: "/bio",
   },
@@ -14,10 +18,6 @@ export const HEADER = [
   {
     title: "portfolio",
     url: "/portfolio",
-  },
-  {
-    title: "works",
-    url: "/works",
   },
 ];
 

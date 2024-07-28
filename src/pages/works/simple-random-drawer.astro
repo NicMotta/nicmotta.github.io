@@ -20,16 +20,17 @@ const id = 0;
     let sizeMovement = 5;
 
     function setup() {
-      createCanvas(windowWidth, windowHeight);
+      HEIGHT = windowWidth < 768 ? windowHeight - 400 : windowHeight - 200;
+      createCanvas(windowWidth, HEIGHT);
       axis.x = windowWidth / 2;
-      axis.y = windowHeight / 2;
+      axis.y = HEIGHT / 2;
       randomSeed(random(2000));
       sizeCircle = random(5, 100);
       sizeMovement = random(1, 8);
     }
 
     function windowResized() {
-      resizeCanvas(windowWidth, windowHeight);
+      resizeCanvas(windowWidth, HEIGHT);
     }
     function draw() {
       fill(255);
@@ -40,8 +41,8 @@ const id = 0;
       if (axis.x > windowWidth) {
         axis.x = windowWidth;
       }
-      if (axis.y > windowHeight) {
-        axis.y = windowHeight;
+      if (axis.y > HEIGHT) {
+        axis.y = HEIGHT;
       }
       if (axis.x < 0) {
         axis.x = 0;
