@@ -22,3 +22,6 @@ export const HEADER = [
 ];
 
 export const HEADER_TITLE = "[ n i c , m o t t a ]";
+
+export const HEADER_SUBTITLE =
+  "Nic Motta - Artist and Developer personal web page";
