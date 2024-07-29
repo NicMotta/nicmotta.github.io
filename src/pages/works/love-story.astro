@@ -8,7 +8,7 @@ const { title, date, description, year } = WORKS.find((work) => work.id === id);
 
 <LayoutWorks title={title}>
   <p class="mt-2">
-    <b>{title}</b>, created at {date} of {year}
+    <b>{title}</b>, created on {date} of {year}
   </p>
   <p>{description}</p>
 </LayoutWorks>
