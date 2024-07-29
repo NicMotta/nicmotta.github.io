@@ -43,7 +43,7 @@ export const bikeTravel = (p) => {
       p.ellipse(point.x, point.y, 4, 4);
     });
 
-    let distance = p.dist(points[counter].x, points[counter].y, 0, 0);
+    let distance = p.dist(points[counter].x, points[counter].y, 0, 0) / 3;
     p.text(
       `[ nic on bike, distance to the river: ${distance.toFixed(0)} mts. ]`,
       points[counter].x + 5,
