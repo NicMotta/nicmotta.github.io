@@ -5,7 +5,7 @@ export const WORKS = [
     date: "29 july",
     year: 2024,
     url: "/works/bike-travel",
-    description: "",
+    description: "i always go to the river.",
   },
   {
     id: 1,
