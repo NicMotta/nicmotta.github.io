@@ -2,16 +2,19 @@
 import LayoutWorks from "../../layouts/LayoutWorks.astro";
 import { WORKS } from "../../constants";
 const id = 0;
+
+const { title, date, description, year } = WORKS.find((work) => work.id === id);
 ---
 
-<LayoutWorks title={WORKS[id].title}>
+<LayoutWorks title={title}>
   <p class="mt-2">
-    <b>{WORKS[id].title}</b>, created at {WORKS[id].date} of {WORKS[id].year}
+    <b>{title}</b>, created at {date} of {year}
   </p>
+  <p>{description}</p>
 </LayoutWorks>
 
 <script>
   import p5 from "p5";
-  import { mySketch } from "../../js/simple-random-drawer";
-  new p5(mySketch, document.getElementById("sketch"));
+  import { simpleRandomDrawer } from "../../js";
+  new p5(simpleRandomDrawer, document.getElementById("sketch"));
 </script>

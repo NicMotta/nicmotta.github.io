@@ -1,4 +1,6 @@
-export const mySketch = (p) => {
+import { getWidth } from "./helpers";
+
+export const loveStory = (p) => {
   let axis = {
     maga: {
       x: 0,
@@ -16,12 +18,13 @@ export const mySketch = (p) => {
   let sizeMovement = 8;
   let HEIGHT;
   let WIDTH;
+  let distance;
 
   setInterval(setPoints, 50);
 
   p.setup = () => {
-    WIDTH = p.windowWidth < 1024 ? p.windowWidth : 1000;
-    HEIGHT = p.windowWidth < 768 ? p.windowHeight - 400 : p.windowHeight - 200;
+    WIDTH = getWidth(p.windowWidth, p.windowHeight).width;
+    HEIGHT = getWidth(p.windowWidth, p.windowHeight).height;
     p.createCanvas(WIDTH, HEIGHT);
     axis.maga.x = p.random(50, WIDTH);
     axis.maga.y = p.random(50, HEIGHT);
@@ -45,8 +48,7 @@ export const mySketch = (p) => {
   };
 
   function setPoints() {
-    let distance =
-      axis && p.dist(axis.maga.x, axis.maga.y, axis.nic.x, axis.nic.y);
+    distance = axis && p.dist(axis.maga.x, axis.maga.y, axis.nic.x, axis.nic.y);
     let points = axis.nic.points.length;
 
     if (points > 3000) {
@@ -78,6 +80,7 @@ export const mySketch = (p) => {
       });
     }
   }
+
   p.draw = () => {
     p.background(255);
     p.fill(255);
@@ -128,6 +131,26 @@ export const mySketch = (p) => {
       axis.nic.points[size].y,
       50,
       50
+    );
+    p.pop();
+
+    // draw line distance
+    p.push();
+    p.fill(0);
+    p.noStroke();
+    p.text(
+      distance && `[ distance: ${distance.toFixed(2)} ]`,
+      (axis.nic.points[size].x + axis.maga.points[size].x) / 2 + 10,
+      (axis.nic.points[size].y + axis.maga.points[size].y) / 2,
+      120,
+      120
+    );
+    p.stroke(0);
+    p.line(
+      axis.maga.points[size].x,
+      axis.maga.points[size].y,
+      axis.nic.points[size].x,
+      axis.nic.points[size].y
     );
     p.pop();
   };

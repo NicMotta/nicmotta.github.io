@@ -1,5 +1,5 @@
 // Exporting a function called 'mySketch'
-export const mySketch = (p) => {
+export const simpleRandomDrawer = (p) => {
   const axis = {
     x: 0,
     y: 0,
