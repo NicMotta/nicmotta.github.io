@@ -26,6 +26,7 @@ export const loveStory = (p) => {
     WIDTH = getWidth(p.windowWidth, p.windowHeight).width;
     HEIGHT = getWidth(p.windowWidth, p.windowHeight).height;
     p.createCanvas(WIDTH, HEIGHT);
+    p.textFont("JetBrains Mono");
     axis.maga.x = p.random(50, WIDTH);
     axis.maga.y = p.random(50, HEIGHT);
     axis.nic.x = p.random(50, WIDTH);
@@ -107,9 +108,10 @@ export const loveStory = (p) => {
 
     // draw match
     for (let i = 0; i < matchs.length; i++) {
-      p.stroke(255, 0, 0);
-      p.noFill();
-      p.ellipse(matchs[i].x, matchs[i].y, 20, 20);
+      // p.ellipse(matchs[i].x, matchs[i].y, 20, 20);
+      p.noStroke();
+      p.fill(0);
+      p.text("[X]", matchs[i].x, matchs[i].y, 50, 50);
     }
 
     // draw names
@@ -121,16 +123,16 @@ export const loveStory = (p) => {
       "[ maga ]",
       axis.maga.points[size].x + 5,
       axis.maga.points[size].y,
-      50,
-      50
+      100,
+      100
     );
     p.ellipse(axis.nic.points[size].x, axis.nic.points[size].y, 5, 5);
     p.text(
       "[ nic ]",
       axis.nic.points[size].x + 5,
       axis.nic.points[size].y,
-      50,
-      50
+      100,
+      100
     );
     p.pop();
 
@@ -142,8 +144,8 @@ export const loveStory = (p) => {
       distance && `[ distance: ${distance.toFixed(2)} ]`,
       (axis.nic.points[size].x + axis.maga.points[size].x) / 2 + 10,
       (axis.nic.points[size].y + axis.maga.points[size].y) / 2,
-      120,
-      120
+      200,
+      200
     );
     p.stroke(0);
     p.line(

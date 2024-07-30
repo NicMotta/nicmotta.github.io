@@ -15,6 +15,7 @@ export const bikeTravel = (p) => {
     WIDTH = getWidth(p.windowWidth, p.windowHeight).width;
     HEIGHT = getWidth(p.windowWidth, p.windowHeight).height;
     p.createCanvas(WIDTH, HEIGHT);
+    p.textFont("JetBrains Mono");
   };
 
   p.windowResized = () => {
@@ -36,22 +37,6 @@ export const bikeTravel = (p) => {
   p.draw = () => {
     p.background(255);
 
-    // draw lines
-    p.noStroke();
-    p.fill(0);
-    points.forEach((point) => {
-      p.ellipse(point.x, point.y, 4, 4);
-    });
-
-    let distance = p.dist(points[counter].x, points[counter].y, 0, 0) / 3;
-    p.text(
-      `[ nic on bike, distance to the river: ${distance.toFixed(0)} mts. ]`,
-      points[counter].x + 5,
-      points[counter].y,
-      300,
-      300
-    );
-
     // draw river
     for (let i = 0; i < 5; i++) {
       const DISTANCE = 200;
@@ -59,5 +44,21 @@ export const bikeTravel = (p) => {
       p.noFill();
       p.ellipse(0, 0, 100 + i * DISTANCE, 100 + i * DISTANCE);
     }
+
+    // draw lines
+    p.noStroke();
+    p.fill(0);
+    points.forEach((point) => {
+      p.ellipse(point.x, point.y, 3, 3);
+    });
+
+    let distance = p.dist(points[counter].x, points[counter].y, 0, 0) / 3;
+    p.text(
+      `[ cycling nic _ river ${distance.toFixed(0)} meters away ]`,
+      points[counter].x + 5,
+      points[counter].y,
+      400,
+      400
+    );
   };
 };
