@@ -4,7 +4,7 @@ export const HEADER = [
     url: "/",
   },
   {
-    title: "works",
+    title: "micro gestos",
     url: "/works",
   },
   {
