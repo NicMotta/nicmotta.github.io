@@ -1,5 +1,13 @@
 export const WORKS = [
   {
+    id: 3,
+    title: "word decod",
+    date: "01 august",
+    year: 2024,
+    url: "/works/word-decod",
+    description: "",
+  },
+  {
     id: 2,
     title: "bike travel",
     date: "29 july",

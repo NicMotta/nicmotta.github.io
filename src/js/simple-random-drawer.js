@@ -4,10 +4,11 @@ export const simpleRandomDrawer = (p) => {
     x: 0,
     y: 0,
   };
-  let sizeCircle = 50;
+  let sizeCircle = 4;
   let sizeMovement = 5;
   let HEIGHT;
   let WIDTH;
+  let points = [];
 
   p.setup = () => {
     WIDTH = p.windowWidth < 1000 ? p.windowWidth : 1000;
@@ -16,7 +17,6 @@ export const simpleRandomDrawer = (p) => {
     axis.x = WIDTH / 2;
     axis.y = HEIGHT / 2;
     p.randomSeed(p.random(2000));
-    sizeCircle = p.random(5, 100);
     sizeMovement = p.random(1, 8);
   };
 
@@ -25,7 +25,7 @@ export const simpleRandomDrawer = (p) => {
   };
 
   p.draw = () => {
-    p.fill(255);
+    p.fill(0);
     axis.x = axis.x + p.random(-sizeMovement, sizeMovement);
     axis.y = axis.y + p.random(-sizeMovement, sizeMovement);
     p.ellipse(axis.x, axis.y, sizeCircle, sizeCircle);

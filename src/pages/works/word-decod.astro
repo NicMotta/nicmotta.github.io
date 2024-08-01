@@ -1,0 +1,20 @@
+---
+import LayoutWorks from "../../layouts/LayoutWorks.astro";
+import { WORKS } from "../../constants";
+const id = 3;
+
+const { title, date, description, year } = WORKS.find((work) => work.id === id);
+---
+
+<LayoutWorks title={title}>
+  <p class="mt-2">
+    <b>{title}</b>, created on {date} of {year}
+  </p>
+  <p>{description}</p>
+</LayoutWorks>
+
+<script>
+  import p5 from "p5";
+  import { wordDecod } from "../../js";
+  new p5(wordDecod, document.getElementById("sketch"));
+</script>
