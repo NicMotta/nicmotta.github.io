@@ -8,7 +8,9 @@ export const simpleRandomDrawer = (p) => {
   let sizeMovement = 5;
   let HEIGHT;
   let WIDTH;
-  let points = [];
+  let run = 0;
+
+  setInterval(cleanCanvas, 120000);
 
   p.setup = () => {
     WIDTH = p.windowWidth < 1000 ? p.windowWidth : 1000;
@@ -16,6 +18,9 @@ export const simpleRandomDrawer = (p) => {
     p.createCanvas(WIDTH, HEIGHT);
     axis.x = WIDTH / 2;
     axis.y = HEIGHT / 2;
+    p.textFont("JetBrains Mono");
+    p.textSize(14);
+    p.textAlign(p.CENTER, p.CENTER);
     p.randomSeed(p.random(2000));
     sizeMovement = p.random(1, 8);
   };
@@ -23,6 +28,14 @@ export const simpleRandomDrawer = (p) => {
   p.windowResized = () => {
     p.resizeCanvas(WIDTH, HEIGHT);
   };
+
+  function cleanCanvas() {
+    run = run + 1;
+    p.background(255);
+    p.randomSeed(p.random(2000));
+    axis.x = WIDTH / 2;
+    axis.y = HEIGHT / 2;
+  }
 
   p.draw = () => {
     p.fill(0);
@@ -42,5 +55,7 @@ export const simpleRandomDrawer = (p) => {
     if (axis.y < 0) {
       axis.y = 0;
     }
+
+    p.text(`runs: ${run}`, WIDTH / 2, HEIGHT - 50);
   };
 };

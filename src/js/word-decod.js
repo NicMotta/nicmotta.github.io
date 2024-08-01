@@ -24,7 +24,7 @@ export const wordDecod = (p) => {
     p.textFont("JetBrains Mono");
     p.textSize(24);
     p.textAlign(p.CENTER, p.CENTER);
-    p.randomSeed(20000);
+    p.randomSeed(p.random(20000));
   };
 
   p.windowResized = () => {
@@ -32,7 +32,7 @@ export const wordDecod = (p) => {
   };
 
   function setRandomSeed() {
-    p.randomSeed(20000);
+    p.randomSeed(p.random(20000));
   }
 
   function setWord() {
