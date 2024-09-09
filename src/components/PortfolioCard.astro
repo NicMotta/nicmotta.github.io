@@ -1,23 +1,27 @@
 ---
-const {title, url, year, tecnology, code, img} = Astro.props;
+const { title, url, year, subtitle, code, image } = Astro.props;
 ---
 
-<div class="relative my-4 h-32 mx-1">
-  <a href={url}>
-    <div class="bg-gray-100 absolute top-10 left-5 p-1 m-1 hover:bg-gray-300">
-      <p class="text-base font-bold md:text-lg">{title}</p>
-      <p class="text-sm text-gray-500 font-bold md:text-base">[{year}] / {tecnology}</p>
-    </div>
+<a href={url}>
+  <div class="my-2 h-32 border border-black">
+    <img
+      class="object-cover h-full w-full"
+      src={`../assets/images/portfolio/${image}`}
+      alt=""
+    />
+  </div>
 
+  <div class="mb-8">
+    <p class="text-base font-bold md:text-lg">{title}</p>
+    <p class="text-sm text-gray-500 md:text-base">
+      [{year}] / {subtitle}
+    </p>
     {
-      (code==='') 
-        ? <></>
-        : <a class="bg-gray-100 absolute top-10 right-5 p-1 m-1 text-right hover:bg-gray-300" href={code}>
-            <p class="text-base font-bold md:text-lg">Ver código</p>
-            <p class="text-sm text-gray-500 font-bold md:text-base">[Github]</p>
-          </a>
+      code && (
+        <a class="" href={code}>
+          <p class="text-base font-bold md:text-lg">view source code</p>
+        </a>
+      )
     }
-    
-    <img class="object-cover h-full w-full" src={`../assets/images/portfolio/${img}`} alt=""> 
-  </a>
-</div>
+  </div>
+</a>

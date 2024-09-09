@@ -1,6 +1,6 @@
 import { WORDS_LIST } from "./helpers";
 
-export const wordDecod = (p) => {
+export const findTheRiver = (p) => {
   let HEIGHT;
   let WIDTH;
   let stop = false;
