@@ -3,8 +3,13 @@ export const BIO_CONTENT = {
   description: "",
   education: [
     {
+      title: "AWS Cloud Practitioner",
+      subtitle: "IT College",
+      year: "2024",
+    },
+    {
       title: "Maestría en Tecnologías y Estéticas de las Artes Electrónicas",
-      subtitle: "Universidad Nacional Tres de Febrero",
+      subtitle: "UNTREF",
       year: "2020 - 2022",
     },
     {
@@ -121,17 +126,3 @@ export const BIO_CONTENT = {
     },
   ],
 };
-
-/*
-
-statement
-premios
-formación
-residencias
-publicaciones
-investigación
-proyectos
-experiencia docente
-
-
-*/
