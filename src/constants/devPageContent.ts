@@ -118,7 +118,7 @@ export const DEV_EXPERIENCE: WorkExperience[] = [
     projectNote: '"Art Attack: Modo Desafío", Disney+ Latam y Brasil.',
     highlights: [
       "Desarrollo de dispositivos electrónicos y elementos de escenografía interactivos para el programa.",
-      "Diseño, ingeniería y desarrollo de escultura móvil interactiva, adecuación de juegos de feria y ambientacón.",
+      "Diseño, ingeniería y desarrollo de escultura móvil interactiva, adecuación de juegos de feria y ambientación.",
     ],
   },
 ];
