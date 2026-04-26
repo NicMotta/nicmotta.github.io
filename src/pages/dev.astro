@@ -1,0 +1,133 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { DEV_CONTENT } from "../constants";
+---
+
+<Layout title="d e v">
+  <div class="text-left text-sm mt-6">
+    <h1 class="font-bold text-3xl mb-1">{DEV_CONTENT.name}</h1>
+    <p class="text-base mb-1">{DEV_CONTENT.title}</p>
+    <p class="text-sm text-gray-700">
+      {
+        DEV_CONTENT.contact.map((item, index) => (
+          <>
+            {item.url ? (
+              <a class="underline hover:text-gray-500" href={item.url}>
+                {item.label}
+              </a>
+            ) : (
+              <span>{item.label}</span>
+            )}
+            {index < DEV_CONTENT.contact.length - 1 && " | "}
+          </>
+        ))
+      }
+    </p>
+
+    <hr class="w-full my-5" />
+
+    <section class="mb-5">
+      <h2 class="font-bold text-base mb-2">SOBRE MÍ</h2>
+      <p>{DEV_CONTENT.about}</p>
+    </section>
+
+    <hr class="w-full my-5" />
+
+    <section class="mb-5">
+      <h2 class="font-bold text-base mb-2">TECNOLOGÍAS</h2>
+      <ul>
+        {
+          DEV_CONTENT.technologies.map((tech) => (
+            <li>
+              <b>{tech.category}:</b> {tech.items}
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <hr class="w-full my-5" />
+
+    <section class="mb-5">
+      <h2 class="font-bold text-base mb-4">EXPERIENCIA LABORAL</h2>
+      {
+        DEV_CONTENT.workExperience.map((job, index) => (
+          <>
+            <div class="mb-4">
+              <h3 class="font-bold">
+                {job.role} @ {job.company} | {job.period}
+                {job.client && (
+                  <span>
+                    {" "}- <em>{job.client}</em>
+                  </span>
+                )}
+                {job.portfolioLink && (
+                  <span>
+                    {" "}-{" "}
+                    <a class="underline hover:text-gray-500" href={job.portfolioLink}>
+                      ir a mi portfolio
+                    </a>
+                  </span>
+                )}
+              </h3>
+              {job.project && <p class="mt-1">Proyecto: {job.project}</p>}
+              <ul class="mt-2">
+                {job.items.map((item) => (
+                  <li class="mt-2">- {item}</li>
+                ))}
+              </ul>
+            </div>
+            {index < DEV_CONTENT.workExperience.length - 1 && (
+              <hr class="w-full my-4" />
+            )}
+          </>
+        ))
+      }
+    </section>
+
+    <hr class="w-full my-5" />
+
+    <section class="mb-5">
+      <h2 class="font-bold text-base mb-2">FORMACIÓN ACADÉMICA</h2>
+      <ul>
+        {
+          DEV_CONTENT.education.map((item) => (
+            <li class="mt-1">
+              {item.title} - {item.institution}, {item.period}
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <hr class="w-full my-5" />
+
+    <section class="mb-5">
+      <h2 class="font-bold text-base mb-2">CERTIFICACIONES Y CURSOS</h2>
+      <ul>
+        {
+          DEV_CONTENT.certifications.map((item) => (
+            <li class="mt-1">
+              {item.title} - {item.institution}, {item.year}
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <hr class="w-full my-5" />
+
+    <section class="mb-5">
+      <h2 class="font-bold text-base mb-2">EXPERIENCIA DOCENTE</h2>
+      <ul>
+        {
+          DEV_CONTENT.teachingExperience.map((item) => (
+            <li class="mt-1">
+              {item.title}, {item.institution} | {item.role} | {item.period}
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </div>
+</Layout>
