@@ -1,0 +1,144 @@
+---
+import Layout from "../layouts/Layout.astro";
+import {
+  DEV_HEADER,
+  DEV_ABOUT,
+  DEV_TECHNOLOGIES,
+  DEV_EXPERIENCE,
+  DEV_EDUCATION,
+  DEV_CERTIFICATIONS,
+  DEV_TEACHING,
+} from "../constants/devPageContent";
+---
+
+<Layout title="d e v">
+  <!-- Header / Perfil -->
+  <div class="mt-8 mb-6">
+    <h1 class="text-3xl font-bold">{DEV_HEADER.name}</h1>
+    <p class="text-lg mt-1">{DEV_HEADER.title}</p>
+    <p class="text-sm mt-1 text-gray-600 dark:text-gray-400">
+      {DEV_HEADER.contact.email} |&nbsp;
+      <a
+        class="hover:underline"
+        href={`https://${DEV_HEADER.contact.website}`}
+        target="_blank">{DEV_HEADER.contact.website}</a
+      > |&nbsp;
+      <a
+        class="hover:underline"
+        href={DEV_HEADER.contact.linkedin.url}
+        target="_blank">{DEV_HEADER.contact.linkedin.label}</a
+      > |&nbsp;
+      <a
+        class="hover:underline"
+        href={DEV_HEADER.contact.github.url}
+        target="_blank">{DEV_HEADER.contact.github.label}</a
+      > | {DEV_HEADER.contact.location}
+    </p>
+  </div>
+
+  <hr class="w-full my-4" />
+
+  <!-- Sobre mí -->
+  <section class="mb-6">
+    <h2 class="font-bold text-base mb-2">SOBRE MÍ</h2>
+    <p class="text-sm leading-relaxed">{DEV_ABOUT}</p>
+  </section>
+
+  <hr class="w-full my-4" />
+
+  <!-- Tecnologías -->
+  <section class="mb-6">
+    <h2 class="font-bold text-base mb-2">TECNOLOGÍAS</h2>
+    <ul class="text-sm space-y-1">
+      {
+        DEV_TECHNOLOGIES.map((cat) => (
+          <li>
+            <span class="font-bold">{cat.label}:</span> {cat.items}
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <hr class="w-full my-4" />
+
+  <!-- Experiencia Laboral -->
+  <section class="mb-6">
+    <h2 class="font-bold text-base mb-4">EXPERIENCIA LABORAL</h2>
+    {
+      DEV_EXPERIENCE.map((job) => (
+        <div class="mb-6">
+          <h3 class="font-bold text-sm">
+            {job.role} @ {job.company} | {job.period}
+            {job.project && (
+              <span>
+                {" "}- <em>{job.project}</em>
+              </span>
+            )}
+            {job.projectUrl && (
+              <span>
+                {" "}-{" "}
+                <a class="hover:underline" href={job.projectUrl}>{"ir a mi portfolio"}</a>
+              </span>
+            )}
+          </h3>
+          {job.projectNote && (
+            <p class="text-sm mt-1">Proyecto: {job.projectNote}</p>
+          )}
+          <ul class="text-sm mt-2 space-y-1">
+            {job.highlights.map((h) => (
+              <li>- {h}</li>
+            ))}
+          </ul>
+          <hr class="w-full mt-4" />
+        </div>
+      ))
+    }
+  </section>
+
+  <!-- Formación Académica -->
+  <section class="mb-6">
+    <h2 class="font-bold text-base mb-2">FORMACIÓN ACADÉMICA</h2>
+    <ul class="text-sm space-y-1">
+      {
+        DEV_EDUCATION.map((edu) => (
+          <li>
+            {edu.degree} - {edu.institution}, {edu.period}
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <hr class="w-full my-4" />
+
+  <!-- Certificaciones y Cursos -->
+  <section class="mb-6">
+    <h2 class="font-bold text-base mb-2">CERTIFICACIONES Y CURSOS</h2>
+    <ul class="text-sm space-y-1">
+      {
+        DEV_CERTIFICATIONS.map((cert) => (
+          <li>
+            {cert.name} - {cert.institution}, {cert.year}
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <hr class="w-full my-4" />
+
+  <!-- Experiencia Docente -->
+  <section class="mb-6">
+    <h2 class="font-bold text-base mb-2">EXPERIENCIA DOCENTE</h2>
+    <ul class="text-sm space-y-1">
+      {
+        DEV_TEACHING.map((pos) => (
+          <li>
+            {pos.subject}, {pos.institution} | {pos.role} | {pos.period}
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</Layout>
