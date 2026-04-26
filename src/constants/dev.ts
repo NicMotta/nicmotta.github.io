@@ -1,17 +1,7 @@
 export const DEV_CONTENT = {
-  name: "Nic Motta Salguero",
   title:
     "Frontend Engineer | Arquitectura escalable, Microfrontends & IA aplicada al desarrollo",
-  contact: [
-    { label: "nicmottas@gmail.com", url: "mailto:nicmottas@gmail.com" },
-    { label: "nicmotta.github.io", url: "https://nicmotta.github.io" },
-    {
-      label: "LinkedIn",
-      url: "https://www.linkedin.com/in/nic-motta/",
-    },
-    { label: "GitHub", url: "https://github.com/NicMotta" },
-    { label: "Buenos Aires, Argentina", url: "" },
-  ],
+  contact: [{ label: "Buenos Aires, Argentina", url: "" }],
   about:
     "Soy desarrollador frontend enfocado en arquitectura y escalabilidad, trabajando principalmente con TypeScript, React y Vue. Tengo experiencia construyendo aplicaciones a escala, creando librerías reutilizables, migrando arquitecturas y desarrollando flujos web y mobile, con foco en calidad y performance. Además, soy docente universitario desde hace más de 10 años, lo que fortaleció mi comunicación, mentoring técnico y presentaciones frente a equipos. Actualmente utilizo IA en el día a día del desarrollo: trabajo con agentes para automatizar tareas, mejorar calidad de código y acelerar el flujo de trabajo, y he creado agentes que hoy son utilizados por distintos equipos.",
   technologies: [
@@ -69,7 +59,7 @@ export const DEV_CONTENT = {
       period: "2020 - 2021",
       client: "",
       portfolioLink: "",
-      project: "\"Art Attack: Modo Desafío\", Disney+ Latam y Brasil.",
+      project: '"Art Attack: Modo Desafío", Disney+ Latam y Brasil.',
       items: [
         "Desarrollo de dispositivos electrónicos y elementos de escenografía interactivos para el programa.",
         "Diseño, ingeniería y desarrollo de escultura móvil interactiva, adecuación de juegos de feria y ambientación.",
@@ -95,8 +85,16 @@ export const DEV_CONTENT = {
   ],
   certifications: [
     { title: "Claude 101", institution: "Anthropic", year: "2026" },
-    { title: "Curso de Habilidades Blandas", institution: "Franco Pisso", year: "2026" },
-    { title: "AWS Cloud Practitioner", institution: "IT College", year: "2023" },
+    {
+      title: "Curso de Habilidades Blandas",
+      institution: "Franco Pisso",
+      year: "2026",
+    },
+    {
+      title: "AWS Cloud Practitioner",
+      institution: "IT College",
+      year: "2023",
+    },
     {
       title: "React: De cero a experto (Hooks y MERN)",
       institution: "Udemy",

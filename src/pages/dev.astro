@@ -5,8 +5,7 @@ import { DEV_CONTENT } from "../constants";
 
 <Layout title="d e v">
   <div class="text-left text-sm mt-6">
-    <h1 class="font-bold text-3xl mb-1">{DEV_CONTENT.name}</h1>
-    <p class="text-base mb-1">{DEV_CONTENT.title}</p>
+    <p class="text-lg mb-1">{DEV_CONTENT.title}</p>
     <p class="text-sm text-gray-700">
       {
         DEV_CONTENT.contact.map((item, index) => (
@@ -58,13 +57,18 @@ import { DEV_CONTENT } from "../constants";
                 {job.role} @ {job.company} | {job.period}
                 {job.client && (
                   <span>
-                    {" "}- <em>{job.client}</em>
+                    {" "}
+                    - <em>{job.client}</em>
                   </span>
                 )}
                 {job.portfolioLink && (
                   <span>
-                    {" "}-{" "}
-                    <a class="underline hover:text-gray-500" href={job.portfolioLink}>
+                    {" "}
+                    -{" "}
+                    <a
+                      class="underline hover:text-gray-500"
+                      href={job.portfolioLink}
+                    >
                       ir a mi portfolio
                     </a>
                   </span>
