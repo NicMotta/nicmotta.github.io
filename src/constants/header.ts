@@ -19,10 +19,6 @@ export const HEADER = [
     title: "portfolio",
     url: "/portfolio",
   },
-  {
-    title: "dev",
-    url: "/dev",
-  },
 ];
 
 export const HEADER_TITLE = "[ n i c , m o t t a ]";
