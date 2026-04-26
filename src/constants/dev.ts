@@ -9,7 +9,7 @@ export const DEV_CONTENT = {
       label: "LinkedIn",
       url: "https://www.linkedin.com/in/nic-motta/",
     },
-    { label: "Github", url: "https://github.com/NicMotta" },
+    { label: "GitHub", url: "https://github.com/NicMotta" },
     { label: "Buenos Aires, Argentina", url: "" },
   ],
   about:
